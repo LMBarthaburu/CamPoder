@@ -1,0 +1,48 @@
+:root{
+  --amarillo: #F9DE5D;
+  --verde: #009241;
+  --negro: #1F1A17;
+}
+*{
+  font-family: 'Cabin', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: var(--verde);
+}
+.hero{
+  color: var(--negro);
+  height: 75vh;
+}
+.hero-titulo{
+  font-size: 70px;
+}
+.hero-subtitulo{
+  font-size: 32px;
+}
+.hero-img{
+  width: 600px;
+}
+
+@media (min-width: 578px) and (max-width: 769px){
+  .hero-titulo{
+    font-size: 55px;
+  }
+  .hero-subtitulo{
+    font-size: 24px;
+  }
+  .hero-img{
+    width: 450px;
+  }
+  
+}
+@media (max-width: 577px){
+  .hero-titulo{
+    font-size: 35px;
+  }
+  .hero-subtitulo{
+    font-size: 18px;
+  }
+  .hero-img{
+    width: 350px;
+  }
+}
