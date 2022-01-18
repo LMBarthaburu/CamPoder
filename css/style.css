@@ -1,48 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 :root{
   --amarillo: #F9DE5D;
   --verde: #009241;
   --negro: #1F1A17;
 }
 *{
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .navbar-light .navbar-nav .nav-link:hover{
   color: var(--verde);
 }
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  font-weight: bolder;
+  color: var(--verde);
+}
 .hero{
   color: var(--negro);
-  height: 75vh;
+  height: 100vh;
 }
 .hero-titulo{
-  font-size: 70px;
+  font-size: 50px;
 }
 .hero-subtitulo{
-  font-size: 32px;
+  font-size: 28px;
 }
 .hero-img{
-  width: 600px;
+  width: 100%;
+}
+.semillas{
+  background-color: turquoise;
+  height: 100vh;
 }
 
-@media (min-width: 578px) and (max-width: 769px){
-  .hero-titulo{
-    font-size: 55px;
+@media (min-width: 578px) and (max-width: 993px){
+  .hero{
+    height: auto;
   }
-  .hero-subtitulo{
-    font-size: 24px;
-  }
-  .hero-img{
-    width: 450px;
-  }
-  
-}
-@media (max-width: 577px){
   .hero-titulo{
     font-size: 35px;
   }
   .hero-subtitulo{
+    font-size: 20px;
+  }
+  .hero-texto{
     font-size: 18px;
   }
   .hero-img{
-    width: 350px;
+    width: 80%;
+  }
+}
+@media (max-width: 577px){
+  .hero{
+    padding-top: 50px;
+    height: auto;
+  }
+  .hero-titulo{
+    font-size: 25px;
+  }
+  .hero-subtitulo{
+    font-size: 16px;
+  }
+  .hero-texto{
+    font-size: 14px;
+  }
+  .hero-img{
+    width: 100%;
   }
 }
