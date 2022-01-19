@@ -16,10 +16,9 @@
 }
 .hero{
   color: var(--negro);
-  height: 100vh;
 }
-.hero-titulo{
-  font-size: 50px;
+.hero-logo{
+  width: 50%;
 }
 .hero-subtitulo{
   font-size: 28px;
@@ -36,9 +35,6 @@
   .hero{
     height: auto;
   }
-  .hero-titulo{
-    font-size: 35px;
-  }
   .hero-subtitulo{
     font-size: 20px;
   }
@@ -51,11 +47,7 @@
 }
 @media (max-width: 577px){
   .hero{
-    padding-top: 50px;
     height: auto;
-  }
-  .hero-titulo{
-    font-size: 25px;
   }
   .hero-subtitulo{
     font-size: 16px;
