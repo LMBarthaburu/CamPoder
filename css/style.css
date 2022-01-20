@@ -7,6 +7,9 @@
 *{
   font-family: 'Lato', sans-serif;
 }
+.nav-img{
+  width: 20vh;
+}
 .navbar-light .navbar-nav .nav-link:hover{
   color: var(--verde);
 }
@@ -18,16 +21,16 @@
   color: var(--negro);
 }
 .hero-logo{
-  width: 50%;
+  width: 100%;
 }
 .hero-subtitulo{
   font-size: 28px;
+  color: var(--verde);
 }
 .hero-img{
   width: 100%;
 }
 .semillas{
-  background-color: turquoise;
   height: 100vh;
 }
 .franja-fondo-semillas{
@@ -41,8 +44,14 @@
 }
 
 @media (min-width: 578px) and (max-width: 993px){
+  .nav-img{
+    width: 15vh;
+  }
   .hero{
     height: auto;
+  }
+  .hero-logo{
+    width: 50%;
   }
   .hero-subtitulo{
     font-size: 20px;
@@ -55,14 +64,20 @@
   }
 }
 @media (max-width: 577px){
+  .nav-img{
+    width: 15vh;
+  }
   .hero{
     height: auto;
+  }
+  .hero-logo{
+    width: 50%;
   }
   .hero-subtitulo{
     font-size: 16px;
   }
   .hero-texto{
-    font-size: 14px;
+    font-size: 12px;
   }
   .hero-img{
     width: 100%;
