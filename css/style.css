@@ -30,6 +30,15 @@
   background-color: turquoise;
   height: 100vh;
 }
+.franja-fondo-semillas{
+  width: 100%;
+  height: 30%;
+  background-color: var(--verde);
+  top: 30%;
+}
+.semillas-img{
+  width: 80%;
+}
 
 @media (min-width: 578px) and (max-width: 993px){
   .hero{
