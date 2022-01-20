@@ -42,6 +42,20 @@
 .semillas-img{
   width: 80%;
 }
+.semillas-texto h2 span{
+  color: var(--verde);
+}
+.semillas-tipos{
+  padding: 25px 50px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, .8);
+}
+.maiz{
+  background-color: var(--amarillo);
+}
+.sorgo{
+  background-color: var(--negro);
+}
 
 @media (min-width: 578px) and (max-width: 993px){
   .nav-img{
