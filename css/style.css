@@ -3,6 +3,8 @@
   --amarillo: #F9DE5D;
   --verde: #009241;
   --negro: #1F1A17;
+  --blanco: #f1f1f1;
+  --naranja: #ff7a0d;
 }
 *{
   font-family: 'Lato', sans-serif;
@@ -30,8 +32,15 @@
 .hero-img{
   width: 100%;
 }
+.semillas{
+  height: 100vh;
+  background-color: #d4d4d4;
+}
 .semillas-img{
-  width: 100%
+  width: 100%;
+}
+.paquete-img{
+  width: 50%;
 }
 .semillas-texto span{
   color: var(--verde);
@@ -39,19 +48,50 @@
 .semillas-texto h3{
   color: var(--verde);
 }
+.button{
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
 .semillas-button{
   background-color: var(--verde);
- padding: 10px 25px;
- border-radius: 5px;
- border: none;
- font-size: 1.2rem;
- text-decoration: none;
- cursor: pointer;
- color: white;
+  color: var(--blanco);
 }
 .semillas-button:hover{
   background-color: var(--amarillo);
   color: var(--negro)
+}
+.maquinaria{
+  height: 100vh;
+  background-image: linear-gradient(red, yellow);
+}
+.maquianria-pauny-logo{
+  width: 50%;
+}
+.maquianaria-button{
+  background-color: var(--amarillo);
+  color: var(--negro);
+}.maquianaria-button:hover{
+  background-color: var(--verde);
+  color: var(--blanco);
+}
+.maquinaria-img{
+  width: 100%;
+}
+.motoimplementos{
+  height: 100vh;
+  background-color: #dbdada;
+}
+.stihl-button{
+  color: var(--blanco);
+  background-color: var(--naranja);
+}
+.stihl-button:hover{
+  color: var(--negro);
+  background-color: #ff5100;
 }
 @media (min-width: 578px) and (max-width: 993px){
   .nav-img{
@@ -92,13 +132,7 @@
   .hero-img{
     width: 100%;
   }
-  .semillas-texto h2{
-    font-size: 18px;
-  }
-  .semillas-texto h3{
-    font-size: 14px;
-  }
-  .semillas-button{
+ .button{
     font-size: 12px;
     padding: 5px 15px;
   }
