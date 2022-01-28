@@ -20,6 +20,7 @@
   color: var(--verde);
 }
 .hero{
+  padding: 6rem 0;
   color: var(--negro);
 }
 .hero-logo{
@@ -111,6 +112,15 @@
   .hero-img{
     width: 80%;
   }
+  .semillas{
+    height: auto;
+  }
+  .maquinaria{
+    height: auto;
+  }
+  .motoimplementos{
+    height: auto;
+  }
 }
 @media (max-width: 577px){
   .nav-img{
@@ -118,6 +128,7 @@
   }
   .hero{
     height: auto;
+    padding: 5rem 0;
   }
   .hero-logo{
     width: 50%;
