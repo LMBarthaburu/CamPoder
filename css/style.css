@@ -34,7 +34,6 @@
 }
 .semillas{
   height: 100vh;
-  background-color: #d4d4d4;
 }
 .semillas-img{
   width: 100%;
@@ -61,8 +60,8 @@
   color: var(--blanco);
 }
 .semillas-button:hover{
-  background-color: var(--amarillo);
-  color: var(--negro)
+  background-color: #01642e;
+  color: var(--blanco);
 }
 .maquinaria{
   height: 100vh;
@@ -75,7 +74,7 @@
   background-color: var(--amarillo);
   color: var(--negro);
 }.maquianaria-button:hover{
-  background-color: var(--verde);
+  background-color: #b89900;
   color: var(--blanco);
 }
 .maquinaria-img{
@@ -90,7 +89,7 @@
   background-color: var(--naranja);
 }
 .stihl-button:hover{
-  color: var(--negro);
+  color: var(--blanco);
   background-color: #ff5100;
 }
 @media (min-width: 578px) and (max-width: 993px){
