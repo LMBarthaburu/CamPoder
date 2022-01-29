@@ -93,6 +93,29 @@
   color: var(--blanco);
   background-color: #ff5100;
 }
+.btn{
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+.btn:hover{
+  background-color: #000;
+  color: var(--blanco);
+}
+textarea{
+  resize: none;
+}
+.mapa{
+  width: 100%;
+}
+footer i{
+  width: 50px;
+}
+.icons-redes{
+  color: var(--negro);
+}
+.icons-redes:hover{
+color: var(--verde);
+}
 @media (min-width: 578px) and (max-width: 993px){
   .nav-img{
     width: 15vh;
