@@ -34,6 +34,7 @@
   width: 100%;
 }
 .semillas{
+  background-color: var(--amarillo);
   height: 100vh;
 }
 .semillas-img{
