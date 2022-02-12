@@ -35,7 +35,7 @@
 }
 .semillas{
   background-color: var(--amarillo);
-  height: 100vh;
+  padding: 6rem 0;
 }
 .semillas-img{
   width: 100%;
@@ -66,7 +66,7 @@
   color: var(--blanco);
 }
 .maquinaria{
-  height: 100vh;
+  padding: 6rem 0;
   background-image: linear-gradient(red, yellow);
 }
 .maquianria-pauny-logo{
@@ -75,7 +75,8 @@
 .maquianaria-button{
   background-color: var(--amarillo);
   color: var(--negro);
-}.maquianaria-button:hover{
+}
+.maquianaria-button:hover{
   background-color: #b89900;
   color: var(--blanco);
 }
@@ -83,7 +84,7 @@
   width: 100%;
 }
 .motoimplementos{
-  height: 100vh;
+  padding: 6rem 0;
   background-color: #dbdada;
 }
 .stihl-button{
