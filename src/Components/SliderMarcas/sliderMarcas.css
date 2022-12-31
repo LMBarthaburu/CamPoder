@@ -1,0 +1,23 @@
+.marca{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logo-img{
+  padding: 15px;
+  width: 20%;
+  filter: invert(0.35) sepia(0.8) hue-rotate(10deg);
+}
+@media (min-width:573px) and (max-width:1022px){
+  .logo-img{
+    width:30%;
+  }
+}
+@media (max-width:572px){
+  .logo-img{
+    width: 30%;
+  }
+}

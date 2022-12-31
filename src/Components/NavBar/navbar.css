@@ -1,0 +1,21 @@
+.navBar{
+  z-index: 1;
+}
+.navbar-img{
+  width: 130px;
+}
+.navbar-link{
+  text-decoration: none;
+  color: var(--negro);
+  font-weight: bold;
+  margin: 0 10px;
+}
+.navbar-link:hover{
+  color: var(--verde);
+}
+.active{
+  color: var(--verde);
+}
+.navbar-toggler-icon{
+  color: var(--negro);
+}

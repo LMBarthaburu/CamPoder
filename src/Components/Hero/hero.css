@@ -1,0 +1,21 @@
+.hero{
+  height: 90vh;
+}
+.hero-title{
+  color: var(--verde);
+}
+@media (min-width:1441px){
+  .hero{
+    height: 100vh;
+  }
+}
+@media (min-width:573px) and (max-width:1022px){
+  .hero{
+    height: 100vh;
+  }
+}
+@media (max-width:572px){
+  .hero{
+    height: 95vh;
+  }
+}

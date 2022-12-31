@@ -1,0 +1,29 @@
+.semilla-titulo{
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--verde);
+}
+.semillas-sutitulo{
+  font-size: 40px;
+  font-weight: bold;
+}
+.maiz{
+  color: var(--naranja);
+}
+.sorgo{
+  color: var(--rojo);
+}
+.sorgo-img{
+  width: 55%;
+}
+.leptra{
+  width: 25%;
+}
+@media(max-width:1022px){
+  .sorgo-img{
+    width: 100%;
+  }
+  .leptra{
+    width: 50%;
+  }
+}

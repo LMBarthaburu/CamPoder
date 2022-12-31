@@ -1,0 +1,49 @@
+import React from 'react'
+import './contactForm.css'
+import {useRef, useState} from 'react'
+import emailjs from 'emailjs-com'
+// import BolsaMaiz from '../../assets/semilla-pioneer.png'
+// import Ptrack from '../../assets/ptrack.png'
+
+function ContactForm() {
+  const formRef = useRef()
+  const [done, setDone]=useState(false)
+
+
+  const handleSubmit=(e)=>{
+    e.preventDefault()
+    emailjs.sendForm('service_sk7z85l','template_fnv45rm', formRef.current,'y7xW86yMJ4daVgaeO')
+    setDone(true)
+    const formulario =document.getElementById('formulario')
+    formulario.reset()
+  }
+
+  return (
+    <section className='py-3 py-lg-5 ' id='contact'>
+      <h1 className='text-center'>Formulario de contacto</h1>
+      <div className='d-flex justify-content-center align-items-center container'>
+        {/* <div className='d-none d-lg-flex justify-content-center align-items-center col-5'>
+          <img src={Ptrack} alt="Bolsa de semillas" className='img-contact'/>
+        </div> */}
+        <div className='col-12 col-lg-8'>
+          <form className='d-flex flex-column' ref={formRef} onSubmit={handleSubmit} id='formulario'>
+            <label className='mt-2 fw-bold'>Nombre completo</label>
+            <input type="text" placeholder='Escriba su nombre completo' name='user_name' className='form-input'required/>
+            <label className='mt-2 fw-bold'>Asunto</label>
+            <input type="text" placeholder='Escriba el motivo de su consulta' name='user_subject' className='form-input'required/>        
+            <label className='mt-2 fw-bold'>E-mail</label>
+            <input type="email" placeholder='ejemplo@gmail.com' name='user_email' className='form-input'required/>
+            <label className='mt-2 fw-bold'>Mensaje</label>
+            <textarea id="" placeholder='Escriba su mensaje aquí' name='message' rows="5" className='form-text-area'required></textarea>
+            <div className='d-flex align-items-center'>
+              <button className='form-btn'>Enviar</button>
+              {done && <p className='sent-msg'>Mensaje enviado con exito!!</p>}
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default ContactForm
