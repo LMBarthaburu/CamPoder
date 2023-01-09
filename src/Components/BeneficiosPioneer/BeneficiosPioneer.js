@@ -1,10 +1,10 @@
 import React from 'react'
-import Beneficos from '../../assets/beneficios-pioneer.jpg'
+import Beneficos from '../../assets/Semillas/beneficios-pioneer.jpg'
 
 function BeneficiosPioneer() {
   return (
-    <section className='container my-4'>
-      <h2 className='fw-bold'>Beneficios para Productores Pioneer</h2>
+    <section className='container my-5'>
+      <h1 className='fw-bold'>Beneficios para Productores Pioneer</h1>
       <div className=' d-lg-flex justify-content-center align-items-center'>
         <div className='col-12 col-lg-6'>
           <img src={Beneficos} alt="" className='w-100' />

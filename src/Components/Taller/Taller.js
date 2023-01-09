@@ -6,12 +6,13 @@ function Taller() {
   return (
     <section className='container my-4'>
       <div className='d-flex align-items-center justify-content-center'>
-        <div className='col-12'>
-          <h5>Nuestro equipo de mecánicos estará siempre disponible en donde los necesiten, contamos con servicio de mantenimiento y reparación en campo para tu maquinaria y la mas completa gama de repuestos, accesorios y consumibles para todos sus implementos STIHL y maquinaria Pauny. <br />
-            Somos reconocidos como servicio técnico oficial por nuestras marcas y nuestros técnicos están capacitados para brindar un excelente servicios de reparación y mantenimiento.</h5>
+        <div>
+          <h1>Servicio Técnico Mecánico</h1>
+          <p>Nuestro equipo de mecánicos estará siempre disponible en donde los necesiten, contamos con servicio de mantenimiento y reparación en campo para tu maquinaria y la mas completa gama de repuestos, accesorios y consumibles para todos sus implementos STIHL y maquinaria Pauny. <br />
+            Somos reconocidos como servicio técnico oficial por nuestras marcas y nuestros técnicos están capacitados para brindar un excelente servicios de reparación y mantenimiento.</p>
         </div>
       </div>
-      <div className='mt-4 d-md-flex justify-content-center align-items-center'>
+      <div className='mt-md-4 d-md-flex justify-content-center align-items-center'>
         <div className='col-12 col-md-6 text-md-end pe-md-5'>
           <h3 className='text-decoration-underline fw-bold'>Taller Principal</h3>
           <p>Av. Gobernador del Campo 918 - San Miguel de Tucumán</p>

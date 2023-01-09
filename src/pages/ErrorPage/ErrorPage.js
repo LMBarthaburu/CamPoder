@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Vial from '../../assets/vial.png'
+import Vial from '../../assets/tractores/vial.png'
 import './errorPage.css'
 import Logo from '../../assets/navbar-img.jpg'
 import Esquina from '../../assets/esquina.png'

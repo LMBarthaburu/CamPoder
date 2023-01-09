@@ -1,9 +1,9 @@
 import React from 'react'
 import './tipoDeSemillas.css'
-import MaizSub from '../../assets/maiz-subtropical.png'
-import MaizTemp from '../../assets/maiz-templado.png'
-import Sorgo from '../../assets/sorgo.png'
-import Leptra from '../../assets/leptra.png'
+import MaizSub from '../../assets/Semillas/maiz-subtropical.png'
+import MaizTemp from '../../assets/Semillas/maiz-templado.png'
+import Sorgo from '../../assets/Semillas/sorgo.png'
+import Leptra from '../../assets/Semillas/leptra.png'
 
 function TipoDeSemillas() {
   return (

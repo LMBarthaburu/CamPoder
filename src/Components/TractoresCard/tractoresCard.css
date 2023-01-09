@@ -1,3 +1,22 @@
+.tractores-card{
+  border-bottom: 5px solid var(--amarillo);
+  width: 32%;
+  overflow: hidden;
+}
 .tractores-card-img{
   width: 250px; 
+}
+@media (min-width:573px) and (max-width:1022px){
+  .tractores-card{
+    border-bottom: 0;
+    border-left: 5px solid var(--amarillo);
+    width: 100%;
+  }
+}
+@media (max-width:572px){
+  .tractores-card{
+    border-bottom: 0;
+    border-left: 5px solid var(--amarillo);
+    width: 100%;
+  }
 }
