@@ -1,0 +1,36 @@
+#opciones{
+  border: none;
+  width: 100%;
+  margin: 5px 0 ;
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 60px;
+  outline: none;
+  box-shadow: none;
+  background-color: var(--naranja);
+  color: var(--blanco);
+  border-bottom: 15px solid var(--negro);
+  border-radius: 5px;
+}
+.opcion{
+  font-size: 25px;
+  background-color: var(--blanco);
+  color: var(--negro);
+}
+@media (min-width:573px) and (max-width:1022px){
+  #opciones{
+    font-size: 50px;
+  }
+  .opcion{
+    font-size: 15px;
+  }
+}
+@media (max-width:572px){
+  #opciones{
+    font-size: 25px;
+    border-bottom: 10px solid var(--negro);
+  }
+  .opcion{
+    font-size: 15px;
+  }
+}

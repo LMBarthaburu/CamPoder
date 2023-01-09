@@ -79,7 +79,7 @@ export const Pauny=[
     potencia: '200/240/260 CV',
     traccion:'4x4 permanente',
     transmicion:'12 marchas hacia adelante y 4 marchas hacia atrás',
-    sistemaHidraulico: 'centro abierto con bomba de engranajes (opcional centro cerrado)',
+    sistemaHidraulico: 'centro abierto con bomba de engranajes',
   },
   {
     id: 7,

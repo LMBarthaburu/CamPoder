@@ -1,0 +1,16 @@
+.hero-seccion-jardineria{
+  background-image: url('../../assets/MaquinaStihl/hero.jpg');
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.logo-seccion-jardineria{
+  width: 50%;
+}
+@media (max-width: 1024px){
+  .logo-seccion-jardineria{
+    width: 100%;
+  }
+}

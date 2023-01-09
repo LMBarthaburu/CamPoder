@@ -3,6 +3,7 @@
   height: 160px;
   background-color: var(--gris-claro);
   border-bottom: 15px solid var(--amarillo);
+  border-radius: 5px;
 }
 .logo-linea-tractores{
   width: 350px;
