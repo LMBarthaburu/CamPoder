@@ -19,7 +19,7 @@ function ContactPage() {
       <NavBar/>
       <ContactForm/>
       <div className='container d-flex flex-column flex-md-row align-items-center justify-content-evenly my-3'>
-        <div className='my-2 my-md-0'>
+        <div className='my-2 my-md-0 contact-box'>
           <img src={Logo} alt="" className='contact-img'/>
           <h5>Av. Gobernador del Campo 918</h5>
           <h5>San Miguel de Tucumán - Tucumán</h5>
@@ -29,7 +29,7 @@ function ContactPage() {
           <h6>Telefono:</h6>
           <p>(0381) 4282034 / 4280218</p>
         </div>
-        <div className='my-2 my-md-0'>
+        <div className='my-2 my-md-0 contact-box'>
           <img src={LogoHogar} alt="" className='contact-img'/>
           <h5>Av. Perón 1600 - Open Plaza - L-24</h5>
           <h5>Yerba Buena - Tucumán</h5>

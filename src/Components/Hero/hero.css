@@ -3,6 +3,13 @@
 }
 .hero-title{
   color: var(--verde);
+  font-size: 24px;
+}
+.hero-logo{
+  width: 100%;
+}
+.img-hero{
+  width: 100%;
 }
 @media (min-width:1441px){
   .hero{
@@ -13,9 +20,21 @@
   .hero{
     height: 100vh;
   }
+  .img-hero{
+    width:60%;
+  }
+  .hero-logo{
+    width:60%;
+  }
 }
 @media (max-width:572px){
   .hero{
-    height: 95vh;
+    height: 100vh;
+  }
+  .img-hero{
+    width: 75%;
+  }
+  .hero-logo{
+    width: 75%;
   }
 }

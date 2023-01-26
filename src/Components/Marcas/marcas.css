@@ -66,12 +66,15 @@
   margin-bottom: 0;
 }
 .semillas{
-  color: var(--blanco);
+  color: transparent;
 }
 .maquinaria{
+  color: transparent;
+}
+.fondo-1:hover .maquinaria, .fondo-3:hover .maquinaria{
   color: var(--negro);
 }
-.taller{
+.fondo-2:hover .semillas, .fondo-4:hover .semillas, .fondo-5:hover .semillas{
   color: var(--blanco);
 }
 .marcas-link{
@@ -91,5 +94,11 @@
   }
   .fondo-1:hover,.fondo-2:hover,.fondo-3:hover, .fondo-4:hover, .fondo-5:hover{
     width: 100%;
+  }
+  .semillas{
+    color: var(--blanco);
+  }
+  .maquinaria{
+    color: var(--negro);
   }
 }

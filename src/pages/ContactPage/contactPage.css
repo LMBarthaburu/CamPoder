@@ -8,3 +8,11 @@
   width: 250px;
   margin-bottom: 15px;
 }
+.contact-box{
+  text-align: start;
+}
+@media (max-width:572px){
+  .contact-box{
+    text-align: center;
+  }
+}
