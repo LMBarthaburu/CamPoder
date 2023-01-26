@@ -87,7 +87,7 @@ import HSA26 from '../../assets/MaquinaStihl/HSA26.jpg'
 
 export const Maquinaria = [
   {
-    id: 1,
+    id: 'MS170',
     tipo: 'motosierra',
     img: MS170,
     modelo: 'MS 170',
@@ -97,7 +97,7 @@ export const Maquinaria = [
     espada:'35 cm',
   },
   {
-    id: 2,
+    id: 'MS180',
     tipo: 'motosierra',
     img: MS180,
     modelo: 'MS 180',
@@ -107,7 +107,7 @@ export const Maquinaria = [
     espada:'40 cm',
   },
   {
-    id: 3,
+    id: 'MS210',
     tipo: 'motosierra',
     img: MS210,
     modelo: 'MS 210',
@@ -117,7 +117,7 @@ export const Maquinaria = [
     espada:'40 cm',
   },
   {
-    id: 4,
+    id: 'MS250',
     tipo: 'motosierra',
     img: MS250,
     modelo: 'MS 250',
@@ -127,7 +127,7 @@ export const Maquinaria = [
     espada:'45 cm',
   },
   {
-    id: 5,
+    id: 'MS251',
     tipo: 'motosierra',
     img: MS250,
     modelo: 'MS 251',
@@ -137,7 +137,7 @@ export const Maquinaria = [
     espada:'45 cm',
   },
   {
-    id: 6,
+    id: 'MS260',
     tipo: 'motosierra',
     img: MS260,
     modelo: 'MS 260',
@@ -147,7 +147,7 @@ export const Maquinaria = [
     espada:'40/45 cm',
   },
   {
-    id: 7,
+    id: 'MS291',
     tipo: 'motosierra',
     img: MS291,
     modelo: 'MS 291',
@@ -157,7 +157,7 @@ export const Maquinaria = [
     espada:'50 cm',
   },
   {
-    id: 8,
+    id: 'MS310',
     tipo: 'motosierra',
     img: MS310,
     modelo: 'MS 310',
@@ -167,7 +167,7 @@ export const Maquinaria = [
     espada:'50 cm',
   },
   {
-    id: 9,
+    id: 'MS361',
     tipo: 'motosierra',
     img: MS361,
     modelo: 'MS 361',
@@ -177,7 +177,7 @@ export const Maquinaria = [
     espada:'40/45/50 cm',
   },
   {
-    id: 10,
+    id: 'MS382',
     tipo: 'motosierra',
     img: MS382,
     modelo: 'MS 382',
@@ -187,7 +187,7 @@ export const Maquinaria = [
     espada:'50/63 cm',
   },
   {
-    id: 11,
+    id: 'MS462',
     tipo: 'motosierra',
     img: MS462,
     modelo: 'MS 462',
@@ -197,7 +197,7 @@ export const Maquinaria = [
     espada:'50/63/75 cm',
   },
   {
-    id: 12,
+    id: 'MS661',
     tipo: 'motosierra',
     img: MS661,
     modelo: 'MS 661',
@@ -207,7 +207,7 @@ export const Maquinaria = [
     espada:'63/75/90 cm',
   },
   {
-    id: 13,
+    id: 'MS780',
     tipo: 'motosierra',
     img: MS780,
     modelo: 'MS 780',
@@ -217,7 +217,7 @@ export const Maquinaria = [
     espada:'63/75/90/120/150 cm',
   },
   {
-    id: 14,
+    id: 'MS194',
     tipo: 'motosierra',
     img: MS194T,
     modelo: 'MS 194t',
@@ -227,7 +227,7 @@ export const Maquinaria = [
     espada:'35/40 cm',
   },
   {
-    id: 15,
+    id: 'MS201',
     tipo: 'motosierra',
     img: MS201,
     modelo: 'MS 201TC M',
@@ -237,7 +237,7 @@ export const Maquinaria = [
     espada:'35/40 cm',
   },
   {
-    id: 16,
+    id: 'MSE141',
     tipo: 'motosierra',
     img: MSE141,
     modelo: 'MS 141 CQ',
@@ -247,7 +247,7 @@ export const Maquinaria = [
     espada:'35 cm',
   },
   {
-    id: 17,
+    id: 'MSE170',
     tipo: 'motosierra',
     img: MSE170,
     modelo: 'MS 170C B',
@@ -257,7 +257,7 @@ export const Maquinaria = [
     espada:'35 cm',
   },
   {
-    id: 18,
+    id: 'FSE52',
     tipo: 'motoguadaña',
     img: FSE52,
     modelo: 'FSE 52',
@@ -266,7 +266,7 @@ export const Maquinaria = [
     peso:'2,2 Kg',
   },
   {
-    id: 19,
+    id: 'FSE60',
     tipo: 'motoguadaña',
     img: FSE60,
     modelo: 'FSE 60',
@@ -275,7 +275,7 @@ export const Maquinaria = [
     peso:'3,9 Kg',
   },
   {
-    id: 20,
+    id: 'FS38',
     tipo: 'motoguadaña',
     img: FS38,
     modelo: 'FS 38',
@@ -284,7 +284,7 @@ export const Maquinaria = [
     peso:'4,1 Kg',
   },
   {
-    id: 21,
+    id: 'FS55',
     tipo: 'motoguadaña',
     img: FS55,
     modelo: 'FS 55',
@@ -293,7 +293,7 @@ export const Maquinaria = [
     peso:'5,1 Kg',
   },
   {
-    id: 22,
+    id: 'FS85',
     tipo: 'motoguadaña',
     img: FS85,
     modelo: 'FS 85',
@@ -302,7 +302,7 @@ export const Maquinaria = [
     peso:'5,3 Kg',
   },
   {
-    id: 23,
+    id: 'FS120',
     tipo: 'motoguadaña',
     img: FS120,
     modelo: 'FS 120',
@@ -311,7 +311,7 @@ export const Maquinaria = [
     peso:'6,3 Kg',
   },
   {
-    id: 24,
+    id: 'FS160',
     tipo: 'motoguadaña',
     img: FS160,
     modelo: 'FS 160',
@@ -320,7 +320,7 @@ export const Maquinaria = [
     peso:'7,4 Kg',
   },
   {
-    id: 25,
+    id: 'FS235',
     tipo: 'motoguadaña',
     img: FS235,
     modelo: 'FS 235',
@@ -329,7 +329,7 @@ export const Maquinaria = [
     peso:'6,8 Kg',
   },
   {
-    id: 26,
+    id: 'FS220',
     tipo: 'motoguadaña',
     img: FS220,
     modelo: 'FS 220',
@@ -338,7 +338,7 @@ export const Maquinaria = [
     peso:'7,7 Kg',
   },
   {
-    id: 27,
+    id: 'FS280',
     tipo: 'motoguadaña',
     img: FS280,
     modelo: 'FS 280',
@@ -347,7 +347,7 @@ export const Maquinaria = [
     peso:'7,9 Kg',
   },
   {
-    id: 28,
+    id: 'FS460',
     tipo: 'motoguadaña',
     img: FS460,
     modelo: 'FS 460',
@@ -356,7 +356,7 @@ export const Maquinaria = [
     peso:'8,4 Kg',
   },
   {
-    id: 29,
+    id: 'FS511',
     tipo: 'motoguadaña',
     img: FS511,
     modelo: 'FS 511',
@@ -365,7 +365,7 @@ export const Maquinaria = [
     peso:'10,2 Kg',
   },
   {
-    id: 30,
+    id: 'KA85',
     tipo: 'sistema combinado',
     img: KA85R,
     modelo: 'KA 85R',
@@ -374,7 +374,7 @@ export const Maquinaria = [
     peso:'5 Kg',
   },
   {
-    id: 31,
+    id: 'HSE42',
     tipo: 'cortacerco',
     img: HSE42,
     modelo: 'HSE 42',
@@ -384,7 +384,7 @@ export const Maquinaria = [
     cuchilla: '450 mm'
   },
   {
-    id: 32,
+    id: 'HSE61',
     tipo: 'cortacerco',
     img: HSE61,
     modelo: 'HSE 61',
@@ -394,7 +394,7 @@ export const Maquinaria = [
     cuchilla: '500 mm'
   },
   {
-    id: 33,
+    id: 'HS45',
     tipo: 'cortacerco',
     img: HS45,
     modelo: 'HS 45',
@@ -404,7 +404,7 @@ export const Maquinaria = [
     cuchilla: '600 mm'
   },
   {
-    id: 34,
+    id: 'HT56',
     tipo: 'podadora de altura',
     img: HT56,
     modelo: 'HT 56',
@@ -414,7 +414,7 @@ export const Maquinaria = [
     altura: '3,9 m'
   },
   {
-    id: 35,
+    id: 'HT105',
     tipo: 'podadora de altura',
     img: HT105,
     modelo: 'HT 105',
@@ -424,7 +424,7 @@ export const Maquinaria = [
     altura: 'Hasta 4 m'
   },
   {
-    id: 36,
+    id: 'BGE71',
     tipo: 'sopladora',
     img: BGE71,
     modelo: 'BGE 71',
@@ -435,7 +435,7 @@ export const Maquinaria = [
     velocidad: '237,6 Km/h'
   },
   {
-    id: 37,
+    id: 'BG50',
     tipo: 'sopladora',
     img: BG50,
     modelo: 'BG 50',
@@ -446,7 +446,7 @@ export const Maquinaria = [
     velocidad: '216 Km/h'
   },
   {
-    id: 36,
+    id: 'SH86',
     tipo: 'sopladora',
     img: SH86,
     modelo: 'SH 86',
@@ -457,7 +457,7 @@ export const Maquinaria = [
     velocidad: '306 Km/h'
   },
   {
-    id: 37,
+    id: 'BR420',
     tipo: 'sopladora',
     img: BR420,
     modelo: 'BR 420',
@@ -468,7 +468,7 @@ export const Maquinaria = [
     velocidad: '280 Km/h'
   },
   {
-    id: 38,
+    id: 'BR600',
     tipo: 'sopladora',
     img: BR600,
     modelo: 'BR 600',
