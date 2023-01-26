@@ -37,7 +37,7 @@ function Marcas() {
         </Link>
         <Link className='contenedor fondo-5 d-flex justify-content-center align-items-center' to='/tromen'>
           <div className='color-5'></div>
-          <div className='marca-titulo mx-3 taller'>
+          <div className='marca-titulo mx-3 semillas'>
             <h2 className='fw-bold' >HORNOS, PARRILLAS Y CALEFACTORES</h2>
             <h3> hay una <span className='fw-bold'>TROMEN</span> para cada momento!</h3>
             <Link to='/tromen' className='d-lg-none marcas-link-1'>Ver más</Link>
@@ -45,7 +45,7 @@ function Marcas() {
         </Link>
         <Link className='contenedor fondo-4 d-flex justify-content-center align-items-center' to='/servicio'>
           <div className='color-4'></div>
-          <div className='marca-titulo mx-3 taller'>
+          <div className='marca-titulo mx-3 semillas'>
             <h2 className='fw-bold' >SERVICIO TECNICO</h2>
             <h3>Ofrecemos servicio post-venta oficial de nuestras marcas, reparación en campo y la mas amplia gama de repuestos </h3>
             <Link to='/servicio' className='d-lg-none marcas-link-1'>Ver más</Link>

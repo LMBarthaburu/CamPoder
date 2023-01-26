@@ -13,7 +13,7 @@ function Stihl() {
     const implemento = Maquinaria.filter(Maquinaria=>Maquinaria.tipo === `${valor}`)
     setdata(implemento)
   }
-
+  
   return (
     <div className='container'>
       <h1 className='mt-5'>Elegí la marca N°1 en el mundo</h1>
@@ -30,11 +30,14 @@ function Stihl() {
         <option value='hoyadora'className='opcion'>Hoyadora, Tronzadora y Taladro</option>
         <option value='aspiradora'className='opcion'>Aspiradora</option>
         <option value='hidrolavadora'className='opcion'>Hidrolavadora</option>
-        <option value='bateria'className='opcion'>Implementos a Batería</option>
+        <option value='AP'className='opcion'>Batería AP (prosesional)</option>
+        <option value='AK'className='opcion'>Batería Ak (semi-profesional)</option>
+        <option value='AI'className='opcion'>Batería AI (doméstica)</option>
+        <option value='AS'className='opcion'>Batería AS (doméstica)</option>
       </select>
-      <div className='d-flex flex-wrap justify-content-around align-items-center mb-5'>
+      <div className='d-flex flex-wrap justify-content-lg-around align-items-center mb-5 ' id='caja'>
         {
-        data.map(items=><JardineriaCard key={items.id} motor={items.motor} imagen={items.img} peso={items.peso} potencia={items.potencia} tipo={items.tipo} modelo={items.modelo} espada={items.espada} cuchilla={items.cuchilla} altura={items.altura} caudal={items.caudal} velocidad={items.velocidad} deposito={items.deposito} presion={items.presion}/>)
+        data.map(items=><JardineriaCard key={items.id} motor={items.motor} imagen={items.img} peso={items.peso} potencia={items.potencia} tipo={items.tipo} modelo={items.modelo} espada={items.espada} cuchilla={items.cuchilla} altura={items.altura} caudal={items.caudal} velocidad={items.velocidad} deposito={items.deposito} presion={items.presion} capacidad={items.capacidad} alcance={items.alcance} diametro={items.diametro} profundidad={items.profundidad} caudalAgua={items.caudalAgua} energia={items.energia} carga={items.carga}/>)
         }
       </div>
 

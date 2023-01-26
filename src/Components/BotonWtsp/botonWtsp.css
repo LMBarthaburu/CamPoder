@@ -1,0 +1,12 @@
+.boton-wtsp{
+  background-color: rgb(211, 211, 211, 0.4);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 10px;
+  color: var(--verde);
+}
+.boton-wtsp:hover{
+  background-color: rgb(211, 211, 211);
+}

@@ -28,8 +28,8 @@ function TipoDeSemillas() {
       </div>
       <div className='text-center my-2 justify-content-center align-items-center'>
         <div>
-          <h4 className='semillas-sutitulo sorgo'>Sorgo Pioneer</h4>
-          <h6 className='sorgo fw-bold  '>Granifero/Doble Proposito</h6>
+          <h4 className='semillas-sutitulo sorgo m-0'>Sorgo Pioneer</h4>
+          <h5 className='sorgo fw-bold'>Granifero/Doble Proposito</h5>
           <img src={Sorgo} alt="" className='sorgo-img'/>
         </div>
       </div>

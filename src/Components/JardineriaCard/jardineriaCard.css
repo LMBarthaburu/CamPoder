@@ -1,11 +1,12 @@
 .jardineria-card{
   border-bottom: 5px solid var(--naranja);
-  width: 23%;
+  width: 30%;
   overflow: hidden;
+  height: 475px;
 }
 .jardineria-card-img{
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height:280px;
   object-fit: contain;
 }
 @media (min-width:573px) and (max-width:1022px){
