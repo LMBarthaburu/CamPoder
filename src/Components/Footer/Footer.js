@@ -21,8 +21,8 @@ function Footer() {
         </div>
         <div className='my-2 my-md-0 d-flex flex-column align-items-center align-items-md-start'>
           <h5 className='fw-bold'>Seguinos en nuestras redes</h5>
-          <a className='m-0 d-flex align-items-center red-social'href='https://www.instagram.com/campoder.tuc/' target='blank'><AiFillFacebook className='me-1'/>Facebook</a>
-          <a className='m-0 d-flex align-items-center red-social'href='https://www.facebook.com/CampoderSRL' target='blank'><AiFillInstagram className='me-1'/>Instragram</a>
+          <a className='m-0 d-flex align-items-center red-social'href='https://www.facebook.com/CampoderSRL' target='blank'><AiFillFacebook className='me-1'/>Facebook</a>
+          <a className='m-0 d-flex align-items-center red-social'href='https://www.instagram.com/campoder.tuc/' target='blank'><AiFillInstagram className='me-1'/>Instragram</a>
         </div>
       </div>
     </section>

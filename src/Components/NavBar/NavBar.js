@@ -5,7 +5,7 @@ import './navbar.css'
 
 function NavBar() {
   return (
-    <div className='position-sticky top-0 bg-white navBar'>
+    <div className='position-fixed w-100 top-0 bg-white navBar'>
       <nav className="navbar navbar-expand-lg  navbar-light mx-lg-5">
         <div className="container-fluid">
           <div>

@@ -9,7 +9,7 @@
 .logo-seccion-semillas{
   width: 50%;
 }
-@media (max-width: 572px){
+@media (max-width:1022px){
   .logo-seccion-semillas{
     width: 100%;
   }

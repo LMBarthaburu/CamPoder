@@ -13,7 +13,7 @@ function Marcas() {
             <h2 className='fw-bold' >MAQUINARIA AGRICOLA</h2>
             <h3>Somos representante comercial <span className='fw-bold'>PAUNY</span>, una empresa argentina líder en el rubro metalmecánico, con una completa gama de tractores de mediana y alta potencia, y de una sólida maquinaria vial.
             </h3>
-            <Link to='/maquinaria' className='d-lg-none marcas-link'>Ver más</Link>
+            <a href='/maquinaria' className='d-lg-none marcas-link'>Ver más</a>
           </div>
         </Link>
         <Link className='contenedor fondo-2 d-flex justify-content-center align-items-center' to='/semillas'>
@@ -22,7 +22,7 @@ function Marcas() {
             <h2 className='fw-bold'>PIONEER SEMILLAS</h2>
             <h3>Líder mundial en desarrollo y producción de genética y biotecnología de avanzada para cultivos.</h3>
             <h5>Somos representantes <span className='fw-bold'>PIONEER</span> en Tucumán y zonas de Catamarca y Santiago del Estero.</h5>
-            <Link to='/semillas' className='d-lg-none marcas-link-1'>Ver más</Link>
+            <a href='/semillas' className='d-lg-none marcas-link-1'>Ver más</a>
           </div>
         </Link>
         <Link className='contenedor fondo-3 d-flex justify-content-center align-items-center' to='/jardineria'>
@@ -32,7 +32,7 @@ function Marcas() {
             <h3>Elegí la marca N° 1 en el mundo de motoimplementos y herramientas para jardinería!
             <span className='fw-bold'>ELEGI STIHL!</span></h3>
             <h5>Motosierras-Motoguadañas-Pulvaerizadoras-Cortacercos</h5>
-            <Link to='/jardineria' className='d-lg-none marcas-link'>Ver más</Link>
+            <a href='/jardineria' className='d-lg-none marcas-link'>Ver más</a>
           </div>
         </Link>
         <Link className='contenedor fondo-5 d-flex justify-content-center align-items-center' to='/tromen'>
@@ -40,7 +40,7 @@ function Marcas() {
           <div className='marca-titulo mx-3 semillas'>
             <h2 className='fw-bold' >HORNOS, PARRILLAS Y CALEFACTORES</h2>
             <h3> hay una <span className='fw-bold'>TROMEN</span> para cada momento!</h3>
-            <Link to='/tromen' className='d-lg-none marcas-link-1'>Ver más</Link>
+            <a href='/tromen' className='d-lg-none marcas-link-1'>Ver más</a>
           </div>
         </Link>
         <Link className='contenedor fondo-4 d-flex justify-content-center align-items-center' to='/servicio'>
@@ -48,7 +48,7 @@ function Marcas() {
           <div className='marca-titulo mx-3 semillas'>
             <h2 className='fw-bold' >SERVICIO TECNICO</h2>
             <h3>Ofrecemos servicio post-venta oficial de nuestras marcas, reparación en campo y la mas amplia gama de repuestos </h3>
-            <Link to='/servicio' className='d-lg-none marcas-link-1'>Ver más</Link>
+            <a href='/servicio' className='d-lg-none marcas-link-1'>Ver más</a>
           </div>
         </Link>
       </div>
