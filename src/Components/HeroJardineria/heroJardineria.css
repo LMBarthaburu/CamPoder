@@ -4,7 +4,7 @@
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
 }
 .logo-seccion-jardineria{
   width: 50%;
