@@ -16,7 +16,6 @@ function Stihl() {
   }
   const setValor=()=>{
     setValue(!value)
-    console.log(value)
   }
 
   useEffect(() => {
@@ -35,6 +34,7 @@ function Stihl() {
         <option value='sistema combinado'className='opcion' >Sistema Combinado</option>
         <option value='podadora de altura'className='opcion' >Podadora de Altura</option>
         <option value='cortacerco'className='opcion' >Cortacercos</option>
+        <option value='cortadora de cesped'className='opcion' >Cortadoras de césped</option>
         <option value='sopladora'className='opcion' >Sopladoras</option>
         <option value='pulverizadora'className='opcion' >Pulverizadoras</option>
         <option value='hoyadora'className='opcion' >Hoyadora, Tronzadora y Taladro</option>
