@@ -1,23 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './errorPage.css'
+import Vial from '../../assets/tractores/vial.png'
+import './paginaEnConstruccion.css'
 import Logo from '../../assets/navbar-img.jpg'
 import Esquina from '../../assets/esquina.png'
 
-function ErrorPage() {
+function PaginaEnConstruccion() {
   return (
     <section className='error d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center text-center text-lg-start'>
       <div>
         <img src={Esquina} alt="" className='esquina-1'/><img src={Esquina} alt=""className='esquina-2' />
       </div>
-      <div className='text text-center'>
+      <div className='text'>
+        <img src={Vial} alt="" className='error-vial'/>
+      </div>
+      <div className='text'>
         <img src={Logo} alt="" className='error-logo'/>
-        <h1 className='fw-bold'>Página no encontrada</h1>
-        <h6>Error 404</h6>
+        <h2 className='fw-bold'>Este sitio está en construcción</h2>
+        <h4>Disculpe las molestias ocasionadas</h4>
         <Link to="/" className='error-link'>Volver al inicio</Link>
       </div>
     </section>
   )
 }
 
-export default ErrorPage
+export default PaginaEnConstruccion

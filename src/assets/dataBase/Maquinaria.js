@@ -83,6 +83,10 @@ import HSA45 from '../../assets/MaquinaStihl/HSA45.jpg'
 import BGA45 from '../../assets/MaquinaStihl/BGA45.jpg'
 import GTA26 from '../../assets/MaquinaStihl/GTA26.jpg'
 import HSA26 from '../../assets/MaquinaStihl/HSA26.jpg'
+import HP725 from '../../assets/MaquinaStihl/725HP.png'
+import HP55 from '../../assets/MaquinaStihl/HP55.jpg'
+import HP1 from '../../assets/MaquinaStihl/HP1.png'
+
 
 
 export const Maquinaria = [
@@ -923,5 +927,32 @@ export const Maquinaria = [
     motor:'Batería AS',
     peso:'0,7 Kg',
     cuchilla: '12/20 cm',
+  },
+  {
+    id: '7,25HP',
+    tipo: 'cortadora de cesped',
+    img: HP725,
+    modelo: 'Plumita 7,25 HP',
+    motor:'Briggs & Stratton 4T',
+    potencia: '7,25 cv',
+    diametro:'50 cm. Colector y salida lateral',
+  },
+  {
+    id: '5,5HP',
+    tipo: 'cortadora de cesped',
+    img: HP55,
+    modelo: 'Plumita 5,5 HP',
+    motor:'Zongshen 4T',
+    potencia: '5,5 cv',
+    diametro:'50 cm. Colector y salida lateral',
+  },
+  {
+    id: '1HP',
+    tipo: 'cortadora de cesped',
+    img: HP1,
+    modelo: 'Plumita 1 HP',
+    motor:'Eléctrico',
+    potencia: '1400 W',
+    diametro:'40 cm',
   },
 ]
