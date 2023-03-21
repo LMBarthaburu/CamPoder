@@ -1,0 +1,17 @@
+.hero-seccion-Tromen{
+  background-image: url('../../assets/Tromen/tromen.jpg');
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+  overflow: hidden;
+}
+.logo-seccion-tromen{
+  width:50%;
+}
+@media (max-width:1022px){
+  .logo-seccion-tromen{
+    width: 75%;
+  }
+}

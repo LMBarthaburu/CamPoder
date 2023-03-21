@@ -7,7 +7,7 @@ import Wtsp from './Components/Wtsp/Wtsp';
 import Servicios from './pages/Servicios/Servicios';
 import Pauny from './pages/Pauny/Pauny';
 import Jardineria from './pages/Jardineria/Jardineria';
-import PaginaEnConstruccion from './pages/PaginaEnConstruccion/PaginaEnConstruccion'
+import Tromen from './pages/Tromen/Tromen';
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route path='/servicio' element={<Servicios/>}/>
         <Route path='/maquinaria' element={<Pauny/>}/>
         <Route path='/jardineria' element={<Jardineria/>}/>
-        <Route path='/tromen' element={<PaginaEnConstruccion/>}/>
+        <Route path='/tromen' element={<Tromen/>}/>
      </Routes>
      <Wtsp/>
     </>
