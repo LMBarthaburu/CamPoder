@@ -1,0 +1,9 @@
+.descripcion-img{
+  object-fit: cover;
+  height: 550px;
+}
+@media (max-width:1022px){
+  .descripcion-img{
+    height: 450px;
+  }
+}

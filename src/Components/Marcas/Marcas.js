@@ -20,7 +20,7 @@ function Marcas() {
           <div className='color-2'></div>
           <div className='marca-titulo mx-3 semillas'>
             <h2 className='fw-bold'>PIONEER SEMILLAS</h2>
-            <h3>Líder mundial en desarrollo y producción de genética y biotecnología de avanzada para cultivos.</h3>
+            <h3>Líder mundial en desarrollo y producción de genética y biotecnología de avanzada para cultivos. <br /> Semillas de Maiz - Semillas de Sorgo.</h3>
             <h5>Somos representantes <span className='fw-bold'>PIONEER</span> en Tucumán y zonas de Catamarca y Santiago del Estero.</h5>
             <a href='/semillas' className='d-lg-none marcas-link-1'>Ver más</a>
           </div>
@@ -47,7 +47,7 @@ function Marcas() {
           <div className='color-4'></div>
           <div className='marca-titulo mx-3 semillas'>
             <h2 className='fw-bold' >SERVICIO TECNICO</h2>
-            <h3>Ofrecemos servicio post-venta oficial de nuestras marcas, reparación en campo y la mas amplia gama de repuestos </h3>
+            <h3>Ofrecemos servicio post-venta oficial de nuestras marcas, reparación en campo y la mas amplia gama de repuestos. <br /> Servicio tecnico oficial Stihl en Tucumán. </h3>
             <a href='/servicio' className='d-lg-none marcas-link-1'>Ver más</a>
           </div>
         </Link>

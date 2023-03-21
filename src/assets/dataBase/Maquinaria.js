@@ -409,7 +409,7 @@ export const Maquinaria = [
   },
   {
     id: 'HT56',
-    tipo: 'podadora de altura',
+    tipo: 'motosierra',
     img: HT56,
     modelo: 'HT 56',
     motor:'27,2 cm3',
@@ -419,7 +419,7 @@ export const Maquinaria = [
   },
   {
     id: 'HT105',
-    tipo: 'podadora de altura',
+    tipo: 'motosierra',
     img: HT105,
     modelo: 'HT 105',
     motor:'31,4 cm3',
@@ -592,7 +592,7 @@ export const Maquinaria = [
   },
   {
     id: 'SE33',
-    tipo: 'aspiradora',
+    tipo: 'hidrolavadora',
     img: SE33,
     modelo: 'SE 33',
     motor:'Eléctrico',
