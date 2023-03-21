@@ -4,3 +4,8 @@
   height: 750px;
   cursor: pointer;
 }
+@media (min-width: 1400px){
+  .instagram-grid{
+    height: 860px;
+  }
+}
