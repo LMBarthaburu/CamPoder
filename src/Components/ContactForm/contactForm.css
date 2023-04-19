@@ -55,11 +55,12 @@
     width: 100%;
   }
   .box{
-    height: 50vh;
+    height: 80vh;
   }
 }
 @media (max-width:572px){
   #contact{
+    padding-top: 50px;
     width: 100%;
   }
   .form-btn{
