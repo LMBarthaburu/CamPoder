@@ -11,7 +11,7 @@
 .contact-box{
   text-align: start;
 }
-@media (max-width:572px){
+@media (max-width:1022px){
   .contact-box{
     text-align: center;
   }
