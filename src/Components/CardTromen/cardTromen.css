@@ -1,0 +1,27 @@
+.tromen-card{
+  border-bottom: 5px solid var(--rojo);
+  width: 30%;
+  overflow: hidden;
+  height: 500px;
+}
+.tromen-card-img{
+  width: 280px;
+  height:280px;
+  object-fit: contain;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+@media (min-width:573px) and (max-width:1022px){
+  .tromen-card{
+    border-bottom: 0;
+    border-left: 5px solid var(--rojo);
+    width: 48%;
+  }
+}
+@media (max-width:572px){
+  .tromen-card{
+    border-bottom: 0;
+    border-left: 5px solid var(--rojo);
+    width: 100%;
+  }
+}

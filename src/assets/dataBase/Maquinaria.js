@@ -30,6 +30,7 @@ import KA85R from '../../assets/MaquinaStihl/KA85R.jpg'
 import HSE42 from '../../assets/MaquinaStihl/HSE42.jpg'
 import HSE61 from '../../assets/MaquinaStihl/HSE61.jpg'
 import HS45 from '../../assets/MaquinaStihl/HS45.jpg'
+import HS82 from '../../assets/MaquinaStihl/HS82.jpg'
 import HT56 from '../../assets/MaquinaStihl/HT56.jpg'
 import HT105 from '../../assets/MaquinaStihl/HT105.jpg'
 import BGE71 from '../../assets/MaquinaStihl/BGE71.jpg'
@@ -405,6 +406,16 @@ export const Maquinaria = [
     motor:'27,2 cm3',
     potencia: '1 cv',
     peso:'5 Kg',
+    cuchilla: '600 mm'
+  },
+  {
+    id: 'HS82',
+    tipo: 'cortacerco',
+    img: HS82,
+    modelo: 'HS 82',
+    motor:'22,2 cm3',
+    potencia: '1 cv',
+    peso:'5,7 Kg',
     cuchilla: '600 mm'
   },
   {

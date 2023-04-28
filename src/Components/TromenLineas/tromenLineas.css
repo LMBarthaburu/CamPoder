@@ -1,32 +1,60 @@
-.img-container-tromen{
-  width: 33%;
-  height: 400px;
-  overflow: hidden;
-  cursor: pointer;
-  text-decoration: none;
+.accordion{
+  margin-bottom: 25px;
 }
-.img-container-tromen:hover{
-  opacity: 90%;
+.accordion-item{
+  border: none;
 }
-.img-tromen{
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-.linea-tromen{
-  position: sticky;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: var(--rojo);
+.accordion-button{
   color: var(--blanco);
+  font-size: 45px;
+  font-weight: bolder;
+  height: 125px;
+  margin-bottom: 5px;
+  background: linear-gradient(90deg, var(--rojo) 15%, rgba(252,176,69,0) 100%);
 }
-@media (max-width: 1022px){
-  .img-container-tromen{
-    width: 100%;
-    margin: 10px 0;
+.accordion-button:not(.collapsed){
+  color: var(--blanco);
+  font-size: 45px;
+  background-color: transparent;
+}
+.accordion-button:focus{
+  box-shadow: none;
+}
+.accordion-button.accordion-button:not(.collapsed)::after{
+  filter: grayscale(100%);
+}
+.accordion-header{
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.gourmet{
+  background-image: url('../../assets/Tromen/gourmet.jpg');
+}
+.calefaccion{
+  background-image: url('../../assets/Tromen/calefaccion.jpg');
+}
+.aire-libre{
+  background-image: url('../../assets/Tromen/aire-libre.jpg');
+}
+.accordion-body{
+  padding: 0;
+}
+@media (min-width:573px) and (max-width:1022px){
+  .accordion-button{
+    font-size: 37px;
   }
-  .linea-tromen{
-    position: inherit;
+  .accordion-button:not(.collapsed){
+    font-size: 37px;
+  }
+}
+@media (max-width:572px){
+  .accordion-button{
+    font-size: 25px;
+    background: linear-gradient(90deg, var(--rojo) 30%, rgba(252,176,69,0) 100%);
+    height: 90px;
+  }
+  .accordion-button:not(.collapsed){
+    font-size: 25px;
   }
 }
