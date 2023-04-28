@@ -19,3 +19,21 @@
 .navbar-toggler-icon{
   color: var(--negro);
 }
+@media (min-width:573px) and (max-width:1022px){
+  .navbar-nav{
+    text-align: center;
+  }
+  .navbar-link{
+    font-size: 25px;
+    margin: 5px 0;
+  }
+}
+@media (max-width:572px){
+  .navbar-nav{
+    text-align: center;
+  }
+  .navbar-link{
+    font-size: 18px;
+    margin: 5px 0;
+  }
+}
