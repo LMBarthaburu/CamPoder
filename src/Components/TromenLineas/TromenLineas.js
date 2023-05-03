@@ -16,7 +16,7 @@ function TromenLineas() {
 
   return (
     <div className='container'>
-      <h1 className='my-3'>Tromen<spam className='fs-5 fw-normal'> no solo es sinónimo de calefacción, si no de Fuegos.</spam></h1>
+      <h1 className='my-3'>Tromen<span className='fs-5 fw-normal'> no solo es sinónimo de calefacción, si no de Fuegos.</span></h1>
       <div className="accordion" id="accordionPanelsStayOpenExample">
         <div className="accordion-item">
           <h2 className="accordion-header calefaccion" id="panelsStayOpen-headingOne">
