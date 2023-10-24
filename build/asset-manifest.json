@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.afd75236.css",
+    "main.css": "/static/css/main.512e446d.css",
     "main.js": "/static/js/main.50b61457.js",
     "static/media/hero.jpg": "/static/media/hero.0ad986be3435df9a79f8.jpg",
     "static/media/stihl.jpg": "/static/media/stihl.e66bf4ec37cd8bfa37a2.jpg",
@@ -212,11 +212,11 @@
     "static/media/AP200.jpg": "/static/media/AP200.513c99127a77d8b8397a.jpg",
     "static/media/FSA57.jpg": "/static/media/FSA57.9399717e6ca1e0507d6f.jpg",
     "index.html": "/index.html",
-    "main.afd75236.css.map": "/static/css/main.afd75236.css.map",
+    "main.512e446d.css.map": "/static/css/main.512e446d.css.map",
     "main.50b61457.js.map": "/static/js/main.50b61457.js.map"
   },
   "entrypoints": [
-    "static/css/main.afd75236.css",
+    "static/css/main.512e446d.css",
     "static/js/main.50b61457.js"
   ]
 }

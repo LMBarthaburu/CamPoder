@@ -67,7 +67,8 @@
     width: 100%;
   }
   .box{
-    height: 75vh;
+    height: auto;
+    margin: 20px 0 ;
   }
 }
 
