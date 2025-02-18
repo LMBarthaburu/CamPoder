@@ -1,0 +1,21 @@
+.hero-seccion-termos{
+  background-image: url('../../assets/Stanley/hero.jpg');
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.logo-seccion-termos{
+  width: 40%;
+}
+@media (max-width: 1024px){
+  .logo-seccion-termos{
+    width: 80%;
+  }
+}
+@media (max-width: 573px){
+  .hero-seccion-termos{
+    background-image: url('../../assets/Stanley/stanley-hero-movil.png');
+  }
+}

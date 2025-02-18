@@ -1,15 +1,10 @@
-.contact-page{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
-}
 .contact-img{
   width: 250px;
+  height: 95px;
   margin-bottom: 15px;
 }
 .contact-box{
-  text-align: start;
+  text-align: center;
 }
 @media (max-width:1022px){
   .contact-box{

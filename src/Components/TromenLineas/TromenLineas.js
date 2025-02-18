@@ -1,8 +1,5 @@
 import React from 'react'
 import './tromenLineas.css'
-// import Calefaccion from '../../assets/Tromen/calefaccion.jpg'
-// import AireLibre from '../../assets/Tromen/aire-libre.jpg'
-// import Gourmet from '../../assets/Tromen/gourmet.jpg'
 import CardTromen from '../CardTromen/CardTromen'
 import {Tromen} from '../../assets/dataBase/Tromen'
 
@@ -16,26 +13,44 @@ function TromenLineas() {
 
   return (
     <div className='container'>
-      <h1 className='my-3'>Tromen<span className='fs-5 fw-normal'> no solo es sinónimo de calefacción, si no de Fuegos.</span></h1>
+      <h1 className='mt-5'>Tromen</h1>
+        <p className='fs-6 fw-normal'>Tromen no solo es sinónimo de calefacción, si no de Fuegos. Conseguí aquí la mas amplia linea de hornos, parrillas, calefactores y todos los accesorios para tu cocina y tu tromen.</p>
       <div className="accordion" id="accordionPanelsStayOpenExample">
         <div className="accordion-item">
           <h2 className="accordion-header calefaccion" id="panelsStayOpen-headingOne">
-            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <button className="accordion-button accordion-tromen collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
               Calefacción
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
             <div className="accordion-body">
               <div className='d-flex flex-wrap justify-content-lg-around align-items-center mb-5 ' id='caja'>
                 {
-                  calefaccion.map(item=><CardTromen key={item.id} modelo={item.modelo} img={item.img} tipo={item.tipo} diametroToatal={item.diametroTotal} diametroCoccion={item.diametroCoccion} peso={item.peso} categoria={item.categoria} alto={item.alto} ancho={item.ancho} profundidad={item.profundidad} ambiente={item.ambiente} medidas={item.medidas} potencia={item.potencia} salida={item.salida}/>)
+                  calefaccion.map(item=>
+                    <CardTromen 
+                      key={item.id} 
+                      modelo={item.modelo} 
+                      img={item.img} 
+                      tipo={item.tipo} 
+                      diametroToatal={item.diametroTotal} 
+                      diametroCoccion={item.diametroCoccion} 
+                      peso={item.peso} 
+                      categoria={item.categoria} 
+                      alto={item.alto} 
+                      ancho={item.ancho} 
+                      profundidad={item.profundidad} 
+                      ambiente={item.ambiente} 
+                      medidas={item.medidas} 
+                      potencia={item.potencia} 
+                      salida={item.salida}/>
+                  )
                 }
               </div>
             </div>
           </div>
           <div className="accordion-item">
             <h2 className="accordion-header gourmet" id="panelsStayOpen-headingTwo">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              <button className="accordion-button accordion-tromen collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                 Gourmet
               </button>
             </h2>
@@ -43,7 +58,24 @@ function TromenLineas() {
               <div className="accordion-body">
                 <div className='d-flex flex-wrap justify-content-lg-around align-items-center mb-5 ' id='caja'>
                   {
-                    Gourmet.map(item=><CardTromen key={item.id} modelo={item.modelo} img={item.img} tipo={item.tipo} diametroToatal={item.diametroTotal} diametroCoccion={item.diametroCoccion} peso={item.peso} categoria={item.categoria} alto={item.alto} ancho={item.ancho} profundidad={item.profundidad} ambiente={item.ambiente} medidas={item.medidas} potencia={item.potencia} salida={item.salida}/>)
+                    Gourmet.map(item=>
+                      <CardTromen 
+                        key={item.id} 
+                        modelo={item.modelo} 
+                        img={item.img} 
+                        tipo={item.tipo} 
+                        diametroToatal={item.diametroTotal} 
+                        diametroCoccion={item.diametroCoccion} 
+                        peso={item.peso} 
+                        categoria={item.categoria} 
+                        alto={item.alto} 
+                        ancho={item.ancho} 
+                        profundidad={item.profundidad} 
+                        ambiente={item.ambiente} 
+                        medidas={item.medidas} 
+                        potencia={item.potencia} 
+                        salida={item.salida}/>
+                    )
                   }
                 </div>
               </div>
@@ -51,7 +83,7 @@ function TromenLineas() {
           </div>
           <div className="accordion-item">
             <h2 className="accordion-header aire-libre" id="panelsStayOpen-headingThree">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              <button className="accordion-button accordion-tromen collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                 Aire Libre
               </button>
             </h2>
@@ -59,7 +91,23 @@ function TromenLineas() {
               <div className="accordion-body">
                 <div className='d-flex flex-wrap justify-content-lg-around align-items-center mb-5 ' id='caja'>
                   {
-                    AireLibre.map(item=><CardTromen key={item.id} modelo={item.modelo} img={item.img} tipo={item.tipo} diametroToatal={item.diametroTotal} diametroCoccion={item.diametroCoccion} peso={item.peso} categoria={item.categoria} alto={item.alto} ancho={item.ancho} profundidad={item.profundidad} ambiente={item.ambiente} medidas={item.medidas} potencia={item.potencia} salida={item.salida}/>)
+                    AireLibre.map(item=>
+                      <CardTromen 
+                        key={item.id} modelo={item.modelo} 
+                        img={item.img} 
+                        tipo={item.tipo} 
+                        diametroToatal={item.diametroTotal} 
+                        diametroCoccion={item.diametroCoccion} 
+                        peso={item.peso} 
+                        categoria={item.categoria} 
+                        alto={item.alto} 
+                        ancho={item.ancho} 
+                        profundidad={item.profundidad} 
+                        ambiente={item.ambiente} 
+                        medidas={item.medidas} 
+                        potencia={item.potencia} 
+                        salida={item.salida}/>
+                    )
                   }
                 </div>
               </div>

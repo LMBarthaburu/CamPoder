@@ -1,0 +1,31 @@
+#opciones-termos{
+  border: none;
+  width: 100%;
+  margin: 5px 0 ;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 35px;
+  outline: none;
+  box-shadow: none;
+  background-color: var(--verde-stanley);
+  color: var(--blanco);
+  border-bottom: 15px solid var(--negro);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.opcion-termos{
+  font-size: 14px;
+  background-color: var(--blanco);
+  color: var(--negro);
+}
+@media (min-width:573px) and (max-width:1022px){
+  #opciones-termos{
+    font-size: 40px;
+  }
+}
+@media (max-width:572px){
+  #opciones-termos{
+    font-size: 25px;
+    border-bottom: 10px solid var(--negro);
+  }
+}

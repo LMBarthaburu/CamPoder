@@ -9,14 +9,14 @@
   background-color: var(--verde);
   background-position: center;
   background-size: cover;
-  transition: width 1.2s;
+  transition: width 0.3s ease-in-out;
   overflow: hidden;
   text-decoration: none;
 }
 .marca-titulo{
   position: inherit;
-  margin-bottom: -1000px;
-  transition: margin-bottom 1s ease-in-out;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
   font-weight: bold;
 }
 .fondo-1{
@@ -34,7 +34,10 @@
 .fondo-5{
   background-image: url('../../assets/Tromen/tromen.jpg');
 }
-.color-1, .color-2, .color-3, .color-4, .color-5{
+.fondo-6{
+  background-image: url('../../assets/Stanley/stanley.jpg');
+}
+.color-1, .color-2, .color-3, .color-4, .color-5, .color-6{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -56,14 +59,17 @@
 .color-5{
   background-color: var(--rojo);
 }
-.fondo-1:hover,.fondo-2:hover,.fondo-3:hover, .fondo-4:hover, .fondo-5:hover{
+.color-6{
+  background-color: var(--verde-stanley);
+}
+.fondo-1:hover,.fondo-2:hover,.fondo-3:hover, .fondo-4:hover, .fondo-5:hover, .fondo-6:hover{
   width: 600%;
 }
-.fondo-1:hover .color-1, .fondo-2:hover .color-2, .fondo-3:hover .color-3, .fondo-4:hover .color-4, .fondo-4:hover, .fondo-5:hover .color-5{
+.fondo-1:hover .color-1, .fondo-2:hover .color-2, .fondo-3:hover .color-3, .fondo-4:hover .color-4, .fondo-4:hover, .fondo-5:hover .color-5, .fondo-6:hover .color-6{
   opacity: 0.95;
 }
-.fondo-1:hover .marca-titulo, .fondo-2:hover .marca-titulo, .fondo-3:hover .marca-titulo, .fondo-4:hover .marca-titulo, .fondo-5:hover .marca-titulo{
-  margin-bottom: 0;
+.fondo-1:hover .marca-titulo, .fondo-2:hover .marca-titulo, .fondo-3:hover .marca-titulo, .fondo-4:hover .marca-titulo, .fondo-5:hover .marca-titulo, .fondo-6:hover .marca-titulo{
+  opacity: 1;
 }
 .semillas{
   color: transparent;
@@ -74,7 +80,7 @@
 .fondo-1:hover .maquinaria, .fondo-3:hover .maquinaria{
   color: var(--negro);
 }
-.fondo-2:hover .semillas, .fondo-4:hover .semillas, .fondo-5:hover .semillas{
+.fondo-2:hover .semillas, .fondo-4:hover .semillas, .fondo-5:hover .semillas, .fondo-6:hover .semillas{
   color: var(--blanco);
 }
 .marcas-link{
@@ -87,12 +93,12 @@
 }
 @media(max-width: 1021px){
   .marca-titulo{
-    margin-bottom: 0;
+    opacity: 1;
   }
-  .color-1, .color-2, .color-3, .color-4, .color-5{
+  .color-1, .color-2, .color-3, .color-4, .color-5, .color-6{
     opacity: 0.9;
   }
-  .fondo-1:hover,.fondo-2:hover,.fondo-3:hover, .fondo-4:hover, .fondo-5:hover{
+  .fondo-1:hover,.fondo-2:hover,.fondo-3:hover, .fondo-4:hover, .fondo-5:hover, .fondo-6:hover{
     width: 100%;
   }
   .semillas{

@@ -11,13 +11,13 @@ function Footer() {
           <h5 className='fw-bold'>CamPoder SRL</h5>
           <p className='m-0'>Av Gobernador del Campo 918</p>
           <p className='m-0'>San Miguel de Tucumán - Tucumán</p>
-          <p className='m-0'>Tel: 0381-4282034</p>
+          <a href='tel:+543814282034' className='m-0 text-decoration-none text-reset'>Tel: 0381-4282034</a>
         </div>
         <div className='my-2 my-md-0'>
           <h5 className='fw-bold'>CamPoder Hogar y Jardín</h5>
           <p className='m-0'>Av Peron 1600 - Open Plaza</p>
           <p className='m-0'>Yerba Buena - Tucumán</p>
-          <p className='m-0'>Tel: 3814010691</p>
+          <a href='tel:+5493814010691' className='m-0 text-decoration-none text-reset'>Tel: 3814010691</a>
         </div>
         <div className='my-2 my-md-0 d-flex flex-column align-items-center align-items-md-start'>
           <h5 className='fw-bold'>Seguinos en nuestras redes</h5>

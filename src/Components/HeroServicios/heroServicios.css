@@ -4,7 +4,7 @@
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
 }
 .titulo-hero-servicios{
   font-size: 200px;
@@ -15,5 +15,13 @@
 @media (max-width: 572px){
   .titulo-hero-servicios{
     font-size: 100px;
+  }
+}
+@media (max-width: 573px){
+  .hero-seccion-servicios{
+    background-image: url('../../assets/Taller/service-hero-movil.png');
+  }
+  .titulo-hero-servicios{
+    color:var(--blanco);
   }
 }

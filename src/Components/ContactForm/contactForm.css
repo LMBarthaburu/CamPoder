@@ -1,5 +1,5 @@
 .box{
-  height: 100vh;
+  margin: 50px 0;
 }
 .form-input{
   border: none;
@@ -54,9 +54,6 @@
     padding: 50px 0;
     width: 100%;
   }
-  .box{
-    height: 80vh;
-  }
 }
 @media (max-width:572px){
   #contact{
@@ -67,7 +64,6 @@
     width: 100%;
   }
   .box{
-    height: auto;
     margin: 20px 0 ;
   }
 }

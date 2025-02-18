@@ -3,7 +3,7 @@
   font-weight: bold;
   color: var(--verde);
 }
-.semillas-sutitulo{
+.semilla-sutitulo{
   font-size: 40px;
   font-weight: bold;
 }
@@ -13,17 +13,49 @@
 .sorgo{
   color: var(--rojo);
 }
-.sorgo-img{
-  width: 55%;
+.soja{
+  color: rgb(84, 84, 255);
 }
-.leptra{
-  width: 25%;
+.accordion-semillas{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 15px 20px;
 }
-@media(max-width:1022px){
-  .sorgo-img{
-    width: 100%;
+.accordion-semillas:not(.collapsed).maiz {
+  color: var(--naranja);
+}
+
+.accordion-semillas:not(.collapsed).sorgo {
+  color: var(--rojo);
+}
+
+.accordion-semillas:not(.collapsed).soja {
+  color: rgb(84, 84, 255);
+}
+
+.accordion-semillas:not(.collapsed) {
+  background-color: transparent;
+  box-shadow: none;
+}
+.accordion-semillas:focus{
+  box-shadow: none;
+}
+@media (min-width:573px) and (max-width:1022px){
+  .accordion-semillas{
+    font-size: 37px;
   }
-  .leptra{
-    width: 50%;
+  .accordion-semillas:not(.collapsed){
+    font-size: 37px;
+  }
+}
+@media (max-width:572px){
+  .accordion-semillas{
+    font-size: 25px;
+  }
+  .accordion-semillas:not(.collapsed){
+    font-size: 25px;
+  }
+  .accordion-semillas{
+    background-color: transparent
   }
 }

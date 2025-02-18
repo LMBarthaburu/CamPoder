@@ -2,7 +2,19 @@
   width: 100%;
   height: 50vh;
 }
-
+.boton-llamar{
+  background-color: rgb(211, 211, 211, 0.4);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 10px;
+  color: var(--verde);
+  margin-bottom: 15px;
+}
+.boton-llamar:hover{
+  background-color: rgb(211, 211, 211);
+}
 @media (max-width: 1021px){
   .map{
     height: 100%;

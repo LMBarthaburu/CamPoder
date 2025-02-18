@@ -15,3 +15,8 @@
     width: 75%;
   }
 }
+@media (max-width: 573px){
+  .hero-seccion-Tromen{
+    background-image: url('../../assets/Tromen/tromen-hero-movil.png');
+  }
+}

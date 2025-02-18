@@ -14,3 +14,8 @@
     width: 100%;
   }
 }
+@media (max-width: 573px){
+  .hero-seccion-semillas{
+    background-image: url('../../assets/Semillas/pioneer-hero-movil.png');
+  }
+}
