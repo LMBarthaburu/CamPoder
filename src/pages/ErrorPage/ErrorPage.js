@@ -3,8 +3,15 @@ import { Link } from 'react-router-dom'
 import './errorPage.css'
 import Logo from '../../assets/navbar-img.jpg'
 import Esquina from '../../assets/esquina.png'
+import { useSEO } from '../../hooks/useSEO'
 
 function ErrorPage() {
+  useSEO({
+    title:"Error page | CamPoder SRL",
+    description:"Venta de maquinária agrícola Pauny, implementos Stihl y semillas de maiz y sorgo Pioneer en Tucumán. Servicio técnico post-venta oficial Pauny y Stihl."
+  })
+
+  
   return (
     <section className='error d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center text-center text-lg-start'>
       <div>

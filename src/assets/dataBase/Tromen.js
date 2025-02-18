@@ -1,68 +1,73 @@
-import MINI from '../Tromen/MINI.jpg'
-import P18 from '../Tromen/P18.jpg'
-import P21 from '../Tromen/P21.jpg'
-import DUOMO from '../Tromen/DUOMO.jpg'
-import D380 from '../Tromen/D380.jpg'
-import DOVAL from '../Tromen/DOVAL.jpg'
-import F900 from '../Tromen/F900.jpg'
-import S410 from '../Tromen/S410.jpg'
-import F410 from '../Tromen/F410.jpg'
-import F500 from '../Tromen/F500.jpg'
-import GLAMPING from '../Tromen/GLAMPING.jpg'
-import HORNERO from '../Tromen/HORNERO.jpg'
-import PCHICO from '../Tromen/PCHICO.jpg'
-import PAMPERO from '../Tromen/PAMPERO.jpg'
-import CHULENGO from '../Tromen/CHULENGO.jpg'
-import CAMPO from '../Tromen/CAMPO.jpg'
-import CSISTEMA from '../Tromen/CSISTEMA.jpg'
-import CRIOLLA from '../Tromen/CRIOLLA.jpg'
-import GAUCHA from '../Tromen/GAUCHA.jpg'
-import PAMPEANA from '../Tromen/PAMPEANA.jpg'
-import ACHICA from '../Tromen/ACHICA.jpg'
-import AGRANDE from '../Tromen/CABERNET.jpg'
-import MALBEC from '../Tromen/MALBEC.jpg'
-import AE360 from '../Tromen/AE360.jpg'
-import AE480 from '../Tromen/AE480.jpg'
-import NAPOLES from '../Tromen/NAPOLES.jpg'
-import TRHG from '../Tromen/TRHG.jpg'
-import T560 from '../Tromen/T560.jpg'
-import T780 from '../Tromen/T780.jpg'
-import TRHL from '../Tromen/TRHL.jpg'
-import TLEÑA from '../Tromen/TLEÑA.jpg'
-import POMPEYA from '../Tromen/POMPEYA.jpg'
-import A430 from '../Tromen/A430.jpg'
-import A730 from '../Tromen/A730.jpg'
-import A930 from '../Tromen/A930.jpg'
-import A5000 from '../Tromen/A5000.jpg'
-import A6000 from '../Tromen/A6000.jpg'
-import P7500 from '../Tromen/P7500.jpg'
-import P9500 from '../Tromen/P9500.jpg'
-import P13000 from '../Tromen/P13000.jpg'
-import P13000E from '../Tromen/P13000E.jpg'
-import P20000 from '../Tromen/P20000.png'
-import P20000DP from '../Tromen/P20000DP.jpg'
-import TR7001 from '../Tromen/TR7001.png'
-import PRISMA from '../Tromen/PRISMA.jpg'
-import CHALTEN from '../Tromen/CHALTEN.jpg'
-import TR13001 from '../Tromen/TR13001.jpg'
-import CALAFATE from '../Tromen/CALAFATE.jpg'
-import PATAGONIA from '../Tromen/PATAGONIA.jpg'
-import ARGENTINA from '../Tromen/ARGENTINA.jpg'
-import BERLIN from '../Tromen/BERLIN.jpg'
-import MADRID from '../Tromen/MADRID.jpg'
-import O890 from '../Tromen/O890.jpg'
-import O890DP from '../Tromen/O890DP.jpg'
-import O1120 from '../Tromen/O1120.jpg'
-import O1120DP from '../Tromen/O1120DP.jpg'
-import O1120CC from '../Tromen/O1120CC.jpg'
-import ROMA from '../Tromen/ROMA.jpg'
-import ROMADP from '../Tromen/ROMADP.jpg'
-import PARIS from '../Tromen/PARIS.jpg'
-import PARISDC from '../Tromen/PARISDC.jpg'
-import PARISCC from '../Tromen/PARISCC.jpg'
-import P16000 from '../Tromen/P16000.jpg'
-import HOGAR from '../Tromen/HOGAR.png'
-import CABERNET from '../Tromen/CABERNET.jpg'
+import { 
+  MINI, 
+  P18, 
+  P21, 
+  DUOMO, 
+  D380, 
+  DOVAL, 
+  F900, 
+  S410, 
+  F410, 
+  F500, 
+  GLAMPING, 
+  HORNERO, 
+  PCHICO, 
+  PAMPERO, 
+  CHULENGO, 
+  CAMPO, 
+  CSISTEMA, 
+  CRIOLLA, 
+  GAUCHA, 
+  PAMPEANA, 
+  ACHICA, 
+  AGRANDE, 
+  MALBEC, 
+  AE360, 
+  AE480, 
+  NAPOLES, 
+  TRHG, 
+  T560, 
+  T780, 
+  TRHL, 
+  TLEÑA, 
+  POMPEYA, 
+  A430, 
+  A730, 
+  A930, 
+  A7, 
+  A9, 
+  A15, 
+  P7500, 
+  P9500, 
+  P13000, 
+  P13000E, 
+  P20000, 
+  P20000DP, 
+  TR7001, 
+  PRISMA, 
+  CHALTEN, 
+  TR13001, 
+  CALAFATE, 
+  PATAGONIA, 
+  ARGENTINA, 
+  BERLIN, 
+  MADRID, 
+  O890, 
+  O890DP, 
+  O1120, 
+  O1120DP, 
+  O1120CC, 
+  ROMA, 
+  ROMADP, 
+  PARIS, 
+  PARISDC, 
+  PARISCC, 
+  P16000, 
+  HOGAR, 
+  CABERNET, 
+  BROOKLIN, 
+  ECO 
+} from '../Tromen/index'
 
 
 export const Tromen=[
@@ -450,28 +455,96 @@ export const Tromen=[
     categoria: 'Gourmet'
   },
   {
-    id:'A5000',
-    modelo: 'Austral 5000',
-    img: A5000,
+    id:'ECO',
+    modelo: 'Eco Tromen 7000',
+    img: ECO,
     tipo: 'Calefactor a Leña',
-    ambiente: 'Hasta 55m2',
-    medidas: '29,5x58,5x44 cm',
-    potencia: '5000 Kcal/h',
-    peso: '37 Kg',
+    ambiente: 'Hasta 60m2',
+    medidas: '46x53,9x40,9 cm',
+    potencia: '7000 Kcal/h',
+    peso: '36,6 Kg',
     salida: '4"',
-    categoria: 'Calefaccion'
+    categoria: 'Calefaccion',
+    descripcion:[
+      {
+        id:1,
+        texto:'La salamandra doble combustión más accesible del mercado llegó para calefaccionar cada hogar argentino.'
+      },
+      {
+        id:2,
+        texto:'Manija de apertura - Salida de humos: 4" - Doble combustión.'
+      }
+    ]
   },
   {
-    id:'A6000',
-    modelo: 'Austral 6000',
-    img: A6000,
+    id:'A7',
+    modelo: 'Austral A7',
+    img: A7,
     tipo: 'Calefactor a Leña',
     ambiente: 'Hasta 65m2',
-    medidas: '41,2x54,5x41,3 cm',
-    potencia: '6000 Kcal/h',
-    peso: '37 Kg',
+    medidas: '44x54x41,3 cm',
+    potencia: '7000 Kcal/h',
+    peso: '-',
     salida: '4"',
-    categoria: 'Calefaccion'
+    categoria: 'Calefaccion',
+    descripcion:[
+      {
+        id:1,
+        texto:'Toda la fuerza del fuego, en un calefactor accesible'
+      },
+      {
+        id:2,
+        texto:'Piso enlozado - Mayor superficie vidriada - Laterales curvos - Doble combustión - Salida de Humo: 4” - Mayor emisión calórica por convección y radiación'
+      }
+    ]
+  },
+  {
+    id:'A9',
+    modelo: 'Austral A9',
+    img: A9,
+    tipo: 'Calefactor a Leña',
+    ambiente: 'Hasta 90m2',
+    medidas: '47x66,3x41,2 cm',
+    potencia: '9000 Kcal/h',
+    peso: '-',
+    salida: '4"',
+    categoria: 'Calefaccion',
+    descripcion:[
+      {
+        id:1,
+        texto:'Toda la fuerza del fuego, en un calefactor accesible'
+      },
+      {
+        id:2,
+        texto:'Piso enlozado - Mayor superficie vidriada - Laterales curvos - Doble combustión - Salida de Humo: 4” - Mayor emisión calórica por convección y radiación'
+      }
+    ]
+  },
+  {
+    id:'A15',
+    modelo: 'Austral A15',
+    img: A15,
+    tipo: 'Calefactor a Leña',
+    ambiente: 'Hasta 120m2',
+    medidas: '57x69,7x46 cm',
+    potencia: '15000 Kcal/h',
+    peso: '-',
+    salida: '6"',
+    categoria: 'Calefaccion',
+    descripcion:[
+      {
+        id:1,
+        texto:'Toda la fuerza del fuego, en un calefactor accesible'
+      },
+      {
+        id:2,
+        texto:'Piso enlozado - Mayor superficie vidriada - Laterales curvos - Doble combustión - Salida de Humo: 6” - Mayor emisión calórica por convección y radiación'
+      },
+      {
+        id:3,
+        texto:'OPCIONAL: Horno con calor envolvente'
+      }
+    ]
   },
   {
     id:'P7500',
@@ -782,7 +855,17 @@ export const Tromen=[
     potencia: '16000 Kcal/h',
     peso: '80 Kg',
     salida: '6"',
-    categoria: 'Calefaccion'
+    categoria: 'Calefaccion',
+    descripcion:[
+      {
+        id:1,
+        texto:'La solidez de la línea Pehuen en un calefactor compacto'
+      },
+      {
+        id:2,
+        texto:'Largo máximo de la leña 65 cm - Diámetro de la salida de humo 6 " - 2 derivadores de calor posterior - Interior recubierto de ladrillo refractario - Regulador de temperatura'
+      }
+    ]
   },
   {
     id:'HOGAR',
@@ -794,6 +877,17 @@ export const Tromen=[
     potencia: '16000 Kcal/h',
     peso: '88 Kg',
     salida: '6"',
+    categoria: 'Calefaccion'
+  },
+  {
+    id:'BROOKLIN',
+    modelo: 'Brooklin',
+    img: BROOKLIN,
+    tipo: 'Calefactor a Gas',
+    ambiente: 'Hasta 60m2',
+    medidas: '67,4x50X25 cm',
+    potencia: '7000 Kcal/h',
+    peso: '20 Kg',
     categoria: 'Calefaccion'
   },
 ]

@@ -2,8 +2,9 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 55px;
+  width: 45px;
   filter: drop-shadow(0 0 4px var(--negro));
+  z-index: 50;
 }
 .wtsp-logo:hover{
   transform: scale(1.05);

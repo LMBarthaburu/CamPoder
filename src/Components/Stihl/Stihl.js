@@ -8,54 +8,87 @@ import DescripcionCard from '../DescripcionCard/DescripcionCard'
 
 
 function Stihl() {
-  const [data, setdata] = useState([])
-  const [descripcion, setdescripcion] = useState([])
-  const [value, setValue]= useState(true)
+  const [data, setData] = useState([])
+  const [descripcion, setDescripcion] = useState([])
+  const [value, setValue]= useState('todo')
 
-  const selectData=()=>{
-    const valor = document.getElementById('opciones').value
-    const implemento = Maquinaria.filter(Maquinaria=>Maquinaria.tipo === `${valor}`)
-    const maquinaDescripcion = Detalle.filter(Detalle=>Detalle.tipo === `${valor}`)
-    setdata(implemento)
-    setdescripcion(maquinaDescripcion)
-  }
-  const setValor=()=>{
-    setValue(!value)
+  const modelos = [
+    { value: 'todo', label: 'Todos los Productos' },
+    { value: 'motosierra', label: 'Motosierras y Podadoras de Altura' },
+    { value: 'motoguadaña', label: 'Motoguadañas' },
+    { value: 'sistema combinado', label: 'Sistema Combinado' },
+    { value: 'cortacerco', label: 'Cortacercos' },
+    { value: 'cortadora de cesped', label: 'Cortadoras de césped' },
+    { value: 'sopladora', label: 'Sopladoras' },
+    { value: 'pulverizadora', label: 'Pulverizadoras' },
+    { value: 'motor', label: 'Motor estacionario' },
+    { value: 'motobomba', label: 'Motobombas' },
+    { value: 'motocultivador', label: 'Motocultivador' },
+    { value: 'hoyadora', label: 'Hoyadora, Tronzadora y Taladro' },
+    { value: 'hidrolavadora', label: 'Hidrolavadora y Aspiradoras' },
+    { value: 'AP', label: 'Batería AP (profesional)' },
+    { value: 'AK', label: 'Batería Ak (semi-profesional)' },
+    { value: 'AI', label: 'Batería AI (doméstica)' },
+    { value: 'AS', label: 'Batería AS (doméstica)' },
+  ]
+
+  const selectData=(valor)=>{
+    if(valor==='todo'){
+      setData(Maquinaria)
+      setDescripcion([]);
+    }else{
+      const implemento = Maquinaria.filter(item => item.tipo === valor);
+      const maquinaDescripcion = Detalle.filter(item => item.tipo === valor);
+      setData(implemento);
+      setDescripcion(maquinaDescripcion);
+    }
   }
 
   useEffect(() => {
-    selectData()
+    selectData(value)
   }, [value])
     
 
   return (
     <div className='container'>
-      <h1 className='mt-5'>Elegí la marca N°1 en el mundo</h1>
+      <h1 className='mt-5'>STIHL - la marca N°1 en el mundo</h1>
       <p>La más amplia gama de maquinária y herramientas de jardineria tanto para uso doméstico como para uso profesional. Motosierras, bordeadoras, motoguadañas, herramientas manuales y mucho más!</p>
-      <select onClick={selectData} onChange={setValor} id='opciones'>
-        <option className='opcion'>Selecciona una opción</option>
-        <option value="motosierra" className='opcion' >Motosierras y Podadoras de Altura</option>
-        <option value="motoguadaña" className='opcion' >Motoguadañas</option>
-        <option value='sistema combinado'className='opcion' >Sistema Combinado</option>
-        <option value='cortacerco'className='opcion' >Cortacercos</option>
-        <option value='cortadora de cesped'className='opcion' >Cortadoras de césped</option>
-        <option value='sopladora'className='opcion' >Sopladoras</option>
-        <option value='pulverizadora'className='opcion' >Pulverizadoras</option>
-        <option value='hoyadora'className='opcion' >Hoyadora, Tronzadora y Taladro</option>
-        <option value='hidrolavadora'className='opcion' >Hidrolavadora y Aspiradoras</option>
-        <option value='AP'className='opcion' >Batería AP (prosesional)</option>
-        <option value='AK'className='opcion' >Batería Ak (semi-profesional)</option>
-        <option value='AI'className='opcion' >Batería AI (doméstica)</option>
-        <option value='AS'className='opcion' >Batería AS (doméstica)</option>
+      <select onChange={(e)=>setValue(e.target.value)} id='opciones' defaultValue="todo">
+        {
+          modelos.map(modelo=><option key={modelo.value} value={modelo.value} className='opcion'>{modelo.label}</option>)
+        }
       </select>
       <div>
         {
-          descripcion.map(items=><DescripcionCard key={items.tipo} texto={items.texto} imagen ={items.imagen} titulo={items.titulo}/>)
+          descripcion.map(items=><DescripcionCard key={items.tipo} texto={items.texto} imagen ={items.imagen}/>)
         }
       </div>
       <div className='d-flex flex-wrap justify-content-lg-around align-items-center mb-5 ' id='caja'>
         {
-        data.map(items=><JardineriaCard key={items.id} motor={items.motor} imagen={items.img} peso={items.peso} potencia={items.potencia} tipo={items.tipo} modelo={items.modelo} espada={items.espada} cuchilla={items.cuchilla} altura={items.altura} caudal={items.caudal} velocidad={items.velocidad} deposito={items.deposito} presion={items.presion} capacidad={items.capacidad} alcance={items.alcance} diametro={items.diametro} profundidad={items.profundidad} caudalAgua={items.caudalAgua} energia={items.energia} carga={items.carga}/>)
+        data.map(items=>
+          <JardineriaCard 
+            key={items.id}
+            motor={items.motor} 
+            imagen={items.img} 
+            peso={items.peso} 
+            potencia={items.potencia} 
+            tipo={items.tipo} 
+            modelo={items.modelo} 
+            espada={items.espada} 
+            cuchilla={items.cuchilla} 
+            altura={items.altura} 
+            caudal={items.caudal} 
+            velocidad={items.velocidad} 
+            deposito={items.deposito} 
+            presion={items.presion} 
+            capacidad={items.capacidad} 
+            alcance={items.alcance} 
+            diametro={items.diametro} 
+            profundidad={items.profundidad} 
+            caudalAgua={items.caudalAgua} 
+            energia={items.energia} 
+            carga={items.carga}
+          />)
         }
       </div>
 

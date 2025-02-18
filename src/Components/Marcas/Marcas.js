@@ -43,6 +43,14 @@ function Marcas() {
             <Link to='/tromen' className='d-lg-none marcas-link-1'>Ver más</Link>
           </div>
         </Link>
+        <Link className='contenedor fondo-6 d-flex justify-content-center align-items-center' to='/termos'>
+          <div className='color-6'></div>
+          <div className='marca-titulo mx-3 semillas'>
+            <h2 className='fw-bold' >TERMOS STANLEY</h2>
+            <h3>Termos, mates, bombillas, vasos y todo lo que busques de la linea <span className='fw-bold'>STANLEY</span> conseguilo aquí. <br /> 100% Originales y al mejor precio! </h3>
+            <Link to='/termos' className='d-lg-none marcas-link-1'>Ver más</Link>
+          </div>
+        </Link>
         <Link className='contenedor fondo-4 d-flex justify-content-center align-items-center' to='/servicio'>
           <div className='color-4'></div>
           <div className='marca-titulo mx-3 semillas'>

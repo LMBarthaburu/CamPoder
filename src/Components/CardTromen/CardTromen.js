@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import BotonWtsp from '../BotonWtsp/BotonWtsp'
 import '../CardTromen/cardTromen.css'
+import BotonMas from '../BotonMas/BotonMas'
 
 function CardTromen({id, modelo, img, tipo, diametroToatal, diametroCoccion, peso, categoria, alto, ancho, profundidad, ambiente, medidas, potencia, salida }) {
+    const [isExpanded, setIsExpanded] = useState(false)
+  
+    const handleImageClick = () => {
+      setIsExpanded(!isExpanded);
+    }
+  
+    const handleOverlayClick = () => {
+      setIsExpanded(false);
+    }
   return (
     <div className='tromen-card my-3 text-center d-flex flex-column align-items-center justify-content-between p-2'>
-      <img src={img} alt={modelo} className='tromen-card-img'/>
+      <img 
+        src={img} 
+        alt={modelo} 
+        className='tromen-card-img'
+        onClick={handleImageClick}  
+      />
       <div className='mb-3'>
         <h4>{modelo}</h4>
         {
@@ -53,7 +68,17 @@ function CardTromen({id, modelo, img, tipo, diametroToatal, diametroCoccion, pes
           <h6 className='m-0'>Salida: {salida}</h6> : null
         }
         <BotonWtsp modelo={modelo}/>
+        <BotonMas modelo={modelo} categoria={'tromen'}/>
       </div>
+      {isExpanded && (
+        <div className='overlay' onClick={handleOverlayClick}>
+          <img 
+            src={img} 
+            alt={modelo} 
+            className='expanded-img' 
+          />
+        </div>
+      )}
     </div>
   )
 }

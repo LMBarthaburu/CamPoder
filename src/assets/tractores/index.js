@@ -1,0 +1,14 @@
+export { default as C125 } from '../../assets/tractores/125p.webp';
+export { default as C180 } from '../../assets/tractores/180.png';
+export { default as C210 } from '../../assets/tractores/210.png';
+export { default as C250 } from '../../assets/tractores/250.png';
+export { default as E250 } from '../../assets/tractores/evo250.png';
+export { default as E540 } from '../../assets/tractores/evo540.png';
+export { default as P160 } from '../../assets/tractores/ptrac160.png';
+export { default as B710 } from '../../assets/tractores/bravo710.png';
+export { default as B225 } from '../../assets/tractores/brioso225.png';
+export { default as N710 } from '../../assets/tractores/novo710.webp';
+export { default as PA100 } from '../../assets/tractores/pa100.png';
+export { default as MA160 } from '../../assets/tractores/ma160.png';
+export { default as MA200 } from '../../assets/tractores/ma200.png';
+export { default as ECO } from '../../assets/tractores/ecofriendly.png';

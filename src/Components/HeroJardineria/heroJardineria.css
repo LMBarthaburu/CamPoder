@@ -4,7 +4,7 @@
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
 }
 .logo-seccion-jardineria{
   width: 50%;
@@ -12,5 +12,10 @@
 @media (max-width: 1024px){
   .logo-seccion-jardineria{
     width: 100%;
+  }
+}
+@media (max-width: 573px){
+  .hero-seccion-jardineria{
+    background-image: url('../../assets/MaquinaStihl/stihl-movil-hero.png');
   }
 }

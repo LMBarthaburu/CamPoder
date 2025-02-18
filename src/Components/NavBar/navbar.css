@@ -2,12 +2,12 @@
   z-index: 100;
 }
 .navbar-img{
-  width: 130px;
+  width: 110px;
 }
 .navbar-link{
   text-decoration: none;
   color: var(--negro);
-  font-weight: bold;
+  font-weight: 600;
   margin: 0 10px;
 }
 .navbar-link:hover{
@@ -24,7 +24,7 @@
     text-align: center;
   }
   .navbar-link{
-    font-size: 25px;
+    font-size: 22px;
     margin: 5px 0;
   }
 }

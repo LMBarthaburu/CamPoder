@@ -22,6 +22,7 @@ function NavBar() {
                 <NavLink className="navbar-link" to="/semillas">Semillas</NavLink>
                 <NavLink className="navbar-link" to="/jardineria">Jardineria</NavLink>
                 <NavLink className="navbar-link" to="/tromen">Tromen</NavLink>
+                <NavLink className="navbar-link" to="/termos">Termos</NavLink>
                 <NavLink className="navbar-link" to="/servicio">Servicio Tecnico</NavLink>
                 <NavLink className="navbar-link" to="/contacto">Contacto</NavLink>
               </ul>

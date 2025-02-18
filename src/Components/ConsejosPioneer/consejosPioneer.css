@@ -1,0 +1,22 @@
+.manejo-container{
+  height: 200px;
+  background-image: url('https://assets.corteva.com/is/image/Corteva/IMG-35-AR-3-6_1?$herol1_desktop$');
+  background-position: center;
+  color: var(--blanco);
+  margin-bottom: 10px;
+  position: relative;
+}
+.manejo-fondo{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.manejo-titulo{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}

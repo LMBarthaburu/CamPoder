@@ -10,6 +10,10 @@ import ak from '../../assets/MaquinaStihl/ak.jpg'
 import as from '../../assets/MaquinaStihl/as.jpg'
 import ai from '../../assets/MaquinaStihl/ai.jpg'
 import combinado from '../../assets/MaquinaStihl/combinado.jpg'
+import motocultivador from '../../assets/MaquinaStihl/motocultivador.jpg'
+import motobomba from '../../assets/MaquinaStihl/motobomba.jpg'
+import motor from '../../assets/MaquinaStihl/motor.jpg'
+
 
 
 
@@ -86,4 +90,22 @@ export const Detalle = [
     texto:'Las herramientas combinadas de STIHL son extremamente prácticas. Con variedad de herramientas para un solo motor. Son las mejor opción para realizar múltiples trabajajos con mucha falicidad y economía. Su diseño innovador permite cambiar y transportar los diferentes accesorios de manera rápida y efectiva.',
     imagen:combinado
   },
+  {
+    tipo:'motocultivador',
+    titulo:'Motocultivador',
+    texto:'El motocultivador Stihl es la combinación perfecta entre robustez, agilidad y rendimiento. Este equipo ayudará a rentabilizar su trabajo, ya que está preparada para las más extensas y exigentes jornadas de labores en cualquier tipo de suelo.',
+    imagen:motocultivador
+  },
+  {
+    tipo:'motobomba',
+    titulo:'Motobomba',
+    texto:'Para el bombeo de agua, las bombas de agua STIHL proporcionan un apoyo eficaz. En la agricultura, por ejemplo, se puede tomar agua dulce de aguas superficiales como lagos, ríos, acequias o estanques o para regar zonas cultivadas.',
+    imagen:motobomba
+  },
+  {
+    tipo:'motor',
+    titulo:'Motor Estacionario',
+    texto:'Ideales para agricultores, pescadores y contratistas, estos motores resisten las condiciones meteorológicas más adversas y ofrecen una construcción robusta para una larga vida útil. Desde propulsión de embarcaciones hasta operaciones de ensilado, pulverización, generación de energía y trabajos de construcción, nuestros motores garantizan un rendimiento confiable en cualquier aplicación.',
+    imagen:motor
+  }
 ]
