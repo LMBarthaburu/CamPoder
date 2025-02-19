@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import NavBar from '../../Components/NavBar/NavBar'
 import Footer from '../../Components/Footer/Footer'
-import HeroPauny from '../../Components/HeroPauny/HeroPauny'
 import Tractores from '../../Components/Tractores/Tractores'
 import { useSEO } from '../../hooks/useSEO'
+import HeroSeccion from '../../Components/HeroSeccion/HeroSeccion'
 
 function Pauny() {
   
@@ -19,7 +19,7 @@ function Pauny() {
   return (
     <>
       <NavBar/>
-      <HeroPauny/>
+      <HeroSeccion tipo='maquinaria'/>
       <Tractores/>
       <Footer/>
     </>

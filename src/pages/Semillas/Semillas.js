@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import BeneficiosPioneer from '../../Components/BeneficiosPioneer/BeneficiosPioneer'
 import Footer from '../../Components/Footer/Footer'
-import HeroSemillas from '../../Components/HeroSemillas/HeroSemillas'
 import NavBar from '../../Components/NavBar/NavBar'
 import Pioneer from '../../Components/Pioneer/Pioneer'
 import TipoDeSemillas from '../../Components/TipoDeSemillas/TipoDeSemillas'
 import { useSEO } from '../../hooks/useSEO'
 import ConsejosPioneer from '../../Components/ConsejosPioneer/ConsejosPioneer'
+import HeroSeccion from '../../Components/HeroSeccion/HeroSeccion'
 
 function Semillas() {
 
@@ -21,7 +21,7 @@ function Semillas() {
   return (
     <>
       <NavBar/>
-      <HeroSemillas/>
+      <HeroSeccion tipo='semillas'/>
       <Pioneer/>
       <BeneficiosPioneer/>
       <TipoDeSemillas/>
