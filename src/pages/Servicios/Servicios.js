@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import Footer from '../../Components/Footer/Footer'
-import HeroServicios from '../../Components/HeroServicios/HeroServicios'
 import NavBar from '../../Components/NavBar/NavBar'
 import Taller from '../../Components/Taller/Taller'
 import { useSEO } from '../../hooks/useSEO'
+import HeroSeccion from '../../Components/HeroSeccion/HeroSeccion'
 
 function Servicios() {
 
@@ -18,7 +18,7 @@ function Servicios() {
   return (
     <>
       <NavBar/>
-      <HeroServicios/>
+      <HeroSeccion tipo='servicio'/>
       <Taller/>
       <Footer/>
     </>

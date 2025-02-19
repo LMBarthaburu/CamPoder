@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import { useSEO } from '../../hooks/useSEO'
 import NavBar from '../../Components/NavBar/NavBar'
 import Footer from '../../Components/Footer/Footer'
-import HeroTermos from '../../Components/HeroTermos/HeroTermos'
 import Stanley from '../../Components/Termos/Termos'
+import HeroSeccion from '../../Components/HeroSeccion/HeroSeccion'
 
 function Termos() {
   useSEO({
@@ -17,7 +17,7 @@ function Termos() {
   return (
     <>
       <NavBar/>
-      <HeroTermos/>
+      <HeroSeccion tipo='termos'/>
       <Stanley/>
       <Footer/>
     </>

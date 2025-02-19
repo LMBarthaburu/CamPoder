@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import HeroTromen from '../../Components/HeroTromen/HeroTromen'
 import NavBar from '../../Components/NavBar/NavBar'
 import Footer from '../../Components/Footer/Footer'
 import TromenLineas from '../../Components/TromenLineas/TromenLineas'
 import { useSEO } from '../../hooks/useSEO'
+import HeroSeccion from '../../Components/HeroSeccion/HeroSeccion'
 
 function Tromen() {
 
@@ -18,7 +18,7 @@ function Tromen() {
   return (
     <>
       <NavBar/>
-      <HeroTromen/>
+      <HeroSeccion tipo='tromen'/>
       <TromenLineas/>
       <Footer/>
     </>
